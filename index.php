@@ -2,5 +2,5 @@
 
 $title = "Homepage";
 require_once 'header.php';
-require_once 'Body.php';
+require_once 'home_body.php';
 ?>
