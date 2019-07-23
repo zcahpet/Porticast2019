@@ -1,0 +1,35 @@
+.text{
+	color: #black;
+	font-family: "Arial", cursive, serif;
+}
+
+#main{
+	font-family: "Arial", cursive, serif;
+	color: black;
+}
+
+h3{
+	font-family: "Arial", cursive, serif;
+	text-decoration: underline;
+	clear: both;
+	border: 1px #CDCDCD solid;
+}
+
+.video{
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.episode{ 
+	border-width: 10px;
+}
+
+#cord{
+	padding: 5px;
+}
+
+#main{
+	padding: 10px 16px;
+	background-color: #0097a9;
+	color: #f1f1f1;
+}
