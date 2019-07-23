@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Porticast Body</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="body_style.css">
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
