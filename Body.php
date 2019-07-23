@@ -21,7 +21,10 @@
 			</div>
 			<div class="text">
 				<p>
-					This is the placeholder for the text concerning the pillar drill video. This is the placeholder for the text concerning the pillar drill video. This is the placeholder for the text concerning the pillar drill video.</p>
+					This is the placeholder for the text concerning the pillar drill video. This is the placeholder for the text concerning the pillar drill video. This is the placeholder for the text concerning the pillar drill video.
+
+
+				Testing testing testing</p>
 			</div>
 		</div>
 	</div>
