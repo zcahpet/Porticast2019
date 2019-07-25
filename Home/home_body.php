@@ -14,7 +14,7 @@
 	</div>
 	<div>
 		<div id="catia" class="text">
-			<img src="CATIA_logo.png" width="50%">
+			<img src="images\home\CATIA_logo.png" width="50%">
 			<p>
 				CATIA is a CAD (Computer Aided Design) software used in many areas of engineering and throughout the industrial world by professionals to make their ideas into digital reality. This then gives an accurate estimate of the real life aesthetics and functionality of the part modelled.
 			</p>
@@ -22,7 +22,7 @@
 	</div>
 	<div>
 		<div id="matlab" class="text">
-			<img src="MATLAB_logo.png" width="50%">
+			<img src="images\home\MATLAB_logo.png" width="50%">
 			<p>
 				MatLab (Matrix Laboratory) is a programming language used for matrix manipulation, plotting graphs and many other mathematical applications. It is a useful tool for any engineer and remains relevant today, even decades after its release.
 			</p>
@@ -30,7 +30,7 @@
 	</div>
 	<div >
 		<div id="wicklow" class="text">
-			<img src="wicklow_img.png" width="50%">
+			<img src="images\home\wicklow_img.png" width="50%">
 			<p>
 				The Wicklow Street workshop opened in 2019 as a space for UCL Mechanical Engineering students to freely work on their projects and for the racing teams to manage an efficient workflow. While it is important to know how to use these machinese both for your time at UCL and what may come after, it is important to recognise the danger they pose if used poorly. These videos aim to provide adequate knowledge of the machines for them to be used safely.
 			</p>
