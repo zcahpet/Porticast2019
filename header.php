@@ -14,7 +14,7 @@ require_once 'functions.php';
 
 	<header>
 		<div id="banner">
-			<img src="Banner2.png" alt="error" width=100%/>
+			<img src="images\banner.png" alt="error" width=100%/>
 			<a id="UCLHome" href="https://www.ucl.ac.uk" target="_blank"></a>
 		</div>
 
