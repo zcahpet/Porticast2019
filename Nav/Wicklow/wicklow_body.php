@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Porticast Body</title>
-	<link rel="stylesheet" type="text/css" href="Wicklow\wicklow_style.css">
-	<script type="text/javascript" src="wicklow_script.js"></script>
+	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\wicklow_style.css">
 </head>
 <body>
 	<div class="Headers">
