@@ -1,0 +1,32 @@
+h2{
+	text-decoration: underline;
+	padding: 10px;	
+	width: 800px;
+	margin: 0 auto;
+}
+
+h3{
+	padding: 10px 0px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.content li {
+  display: list-item;
+  list-style-position: inside;
+  padding: 2px 0px;
+  width: 800px;
+  margin: 0px auto;
+}
+
+.content p{
+	padding: 2px 0px;
+	width: 800px;
+	margin: 0px auto;
+}
+
+.pic{
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
