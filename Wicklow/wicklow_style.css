@@ -1,6 +1,7 @@
 .text{
-	color: #black;
+	color: black;
 	font-family: "Arial", cursive, serif;
+	width: 800px
 }
 
 #main{
@@ -24,6 +25,8 @@ h3{
 }
 .episode{ 
 	border-width: 10px;
+	width: 800px;
+	margin: 0 auto;
 }
 
 #cord{
