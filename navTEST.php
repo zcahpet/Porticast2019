@@ -1,8 +1,3 @@
-
-
-
-
-
 <?php
 
 $tabs = scandir(Nav, 0);
@@ -33,7 +28,7 @@ foreach($menu as $title => $options){
 
 	for ($i=0;$i<count($options);$i++){
 		$rest = substr($options[$i], 0,-4);
-		echo '<li> <a href="'.$options[$i].'">'.$rest.'</a></li>';
+		echo '<li> <a href="/Porticast2019/Nav/'.$title.'/'.$options[$i].'">'.$rest.'</a></li>';
 	};	
 	echo '</ul></li>';
 };
