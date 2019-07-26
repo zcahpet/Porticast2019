@@ -1,4 +1,9 @@
 
+<?php
+$title= "Catia Home";
+require_once '../../headerTEST.php' ;
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +12,7 @@
 </head>
 <body>
 	<div class="content">
+		<h1>Getting Started</h1>
 		<h2>Using the Mouse</h2>
 		<h3>Panning</h3>
 			<ol type="1">
