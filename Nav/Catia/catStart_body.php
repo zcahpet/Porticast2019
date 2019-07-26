@@ -1,10 +1,12 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\catStart_style.css">
-</head>
+<?php
+$title= "Catia Home";
+require_once '../../headerTEST.php' ;
+echo '<link rel="stylesheet" type="text/css" href="Stylesheets\catStart_style.css">';
+?>
+
+
+
 <body>
 	<div class="content">
 		<h2>Using the Mouse</h2>

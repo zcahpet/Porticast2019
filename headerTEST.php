@@ -1,11 +1,6 @@
 <?php 
 require_once 'functions.php';
 
-chdir($_SERVER['DOCUMENT_ROOT'].'/Porticast2019/images');
-
-$banner= "/Porticast2019/images/Banner.png";
-
-
 ?>
 
 
