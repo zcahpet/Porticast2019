@@ -2,13 +2,17 @@
 <?php
 $title= "Catia Home";
 require_once '../../headerTEST.php' ;
-echo '<link rel="stylesheet" type="text/css" href="Stylesheets\catStart_style.css">';
 ?>
 
-
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\catStart_style.css">
+</head>
 <body>
 	<div class="content">
+		<h1>Getting Started</h1>
 		<h2>Using the Mouse</h2>
 		<h3>Panning</h3>
 			<ol type="1">
@@ -75,10 +79,3 @@ echo '<link rel="stylesheet" type="text/css" href="Stylesheets\catStart_style.cs
 	</div>
 </body>
 </html>
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\catStart_style.css">
-</head>
-<body>
