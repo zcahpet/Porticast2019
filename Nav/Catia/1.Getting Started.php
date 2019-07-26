@@ -50,11 +50,6 @@ require_once '../../headerTEST.php' ;
 			<img src="..\..\images\Catia\after.png" class="pic">
 			<p>To activate the feature, the same procedure applies and you will see the feature reappear on the part.</p>
 			<img src="..\..\images\Catia\activ.png" class="pic">
-		<h3>Blacked Out Part</h3>
-			<p>If the part seems to be black and uneditable:</p>
-			<img src="p.png" class="pic">
-			<p>You will need to click on the branches of the tree to deselect it. Then, the part should return to its normal grey colour:</p>
-			<img src="p.png" class="pic">	
 		<h3>Define In Work Object</h3>
 			<p>If you have forgotten to add a feature that should have been created earlier in the build, you can use this tool to add the feature. This allows you to add new features to the tree, and allows you to make sure they don’t end up at the bottom of the tree since it may not be the best place for it. To use this tool, Right click on the feature in the tree you wish to be the “In Work Object”.</p>
 			<img src="..\..\images\Catia\inwork.png" class="pic">
