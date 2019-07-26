@@ -5,15 +5,15 @@ chdir($_SERVER['DOCUMENT_ROOT'].'/Porticast2019');
 
 $tabs = scandir(Nav, 0);
 $unwanted = array('.','..','.DS_Store','Home');
-$nav[] = "Home";
+
 
 foreach($tabs as $tab){
 	if(!in_array($tab, $unwanted)){
+		
 		$nav[]= $tab;
 	}
 };
 unset($tab);
-
 
 
 foreach ($nav as $select) {
@@ -27,13 +27,15 @@ foreach ($nav as $select) {
 }; 
 
 
-echo "<nav> <ul>";
-foreach($menu as $title => $options){
-	echo '<li> <a href="#">'.$title.'</a> <ul>';	
 
+
+echo "<nav> <ul>";
+foreach($menu as $header => $options){
+	$title= substr($header, 2);
+	echo '<li> <a href="#">'.$title.'</a> <ul>';	
 	for ($i=0;$i<count($options);$i++){
 		$rest = substr($options[$i], 2,-4);
-		echo '<li> <a href="/Porticast2019/Nav/'.$title.'/'.$options[$i].'">'.$rest.'</a></li>';
+		echo '<li> <a href="/Porticast2019/Nav/'.$header.'/'.$options[$i].'">'.$rest.'</a></li>';
 	};	
 	echo '</ul></li>';
 };
