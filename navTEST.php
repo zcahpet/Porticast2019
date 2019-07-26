@@ -1,5 +1,7 @@
 <?php
 
+chdir($_SERVER['DOCUMENT_ROOT'].'/Porticast2019');
+
 $tabs = scandir(Nav, 0);
 $unwanted = array('.','..','.DS_Store','Home');
 $nav[] = "Home";
@@ -10,6 +12,8 @@ foreach($tabs as $tab){
 	}
 };
 unset($tab);
+
+
 
 foreach ($nav as $select) {
 	$dir = 'Nav/'.$select;
@@ -32,7 +36,7 @@ foreach($menu as $title => $options){
 	};	
 	echo '</ul></li>';
 };
-echo "</nav> </ul>";
+echo "</ul> </nav>";
 
 
 ?>
