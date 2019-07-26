@@ -1,6 +1,6 @@
 
 <?php
-$title= "Catia Home";
+$title= "Catia Getting Started";
 require_once '../../headerTEST.php' ;
 ?>
 
