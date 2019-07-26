@@ -11,7 +11,7 @@ require_once '../../headerTEST.php' ;
 	<script type="text/javascript" src="home_script.js"></script>
 </head>
 <body>
-	<h1 class="text" id="header"></h1>
+	<h1>Home</h1>
 	<div id="intro" class="text">
 		<p>
 			This website is designed for and used by undergraduate Mechanical Engineering students at UCL. It hosts videos and tutorials for softwares such as CATIA and MatLab as well as the induction videos for the workshop at Wicklow Street. The purpose of the website is to help new students get familiar with the machines, tools and softwares they will use during their time at UCL and beyond.

@@ -1,0 +1,52 @@
+h1{
+	border-bottom: solid;
+	border-color: grey;
+	border-width: 1px;
+	padding-bottom: 5px;
+	color: black;
+	width: 800px;
+	margin: 10px auto;
+	padding-left: 0;
+}
+
+.text{
+	color: black;
+	font-family: "Arial", cursive, serif;
+	width: 800px
+}
+
+#main{
+	font-family: "Arial", cursive, serif;
+	color: black;
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+
+h3{
+	font-family: "Arial", cursive, serif;
+	clear: both;
+	border: 1px #CDCDCD solid;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.video{
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.episode{ 
+	border-width: 10px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#cord{
+	padding: 5px;
+}
+
+#main{
+	padding: 10px 16px;
+	background-color: #0097a9;
+	color: #f1f1f1;
+}

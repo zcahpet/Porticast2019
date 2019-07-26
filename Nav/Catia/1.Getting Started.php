@@ -63,7 +63,7 @@ require_once '../../headerTEST.php' ;
 			<img src="..\..\images\Catia\final.png" class="pic">
 	</div>
 	<div class="content">
-		<h2>Main Useful Tools</h2>
+		<h2>Main Tools</h2>
 	</div>
 	<div class="content">
 		<h2>Lost Toolbars</h2>

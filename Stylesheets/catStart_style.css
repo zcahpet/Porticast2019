@@ -1,6 +1,12 @@
 h1{
-width: 800px;
-margin: 2px auto;
+	border-bottom: solid;
+	border-color: grey;
+	border-width: 1px;
+	padding-bottom: 5px;
+	color: black;
+	width: 800px;
+	margin: 10px auto;
+	padding-left: 0;
 }
 
 h2{
