@@ -1,9 +1,12 @@
-#header{
-	padding: 10px 0px;
-	text-decoration: underline;
-	overflow: hidden;
-	margin: 0 auto;
-	text-align: center;
+h1{
+    border-bottom: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding-bottom: 5px;
+    color: black;
+    width: 800px;
+    margin: 10px auto;
+    padding-left: 0;
 }
 
 #intro{
