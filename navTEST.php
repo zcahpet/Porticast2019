@@ -1,33 +1,32 @@
 <?php
 
-chdir($_SERVER['DOCUMENT_ROOT'].'/Porticast2019');
+require_once 'config.php';
+
+
+chdir(SERVER_ROOT);
 
 
 $tabs = scandir(Nav, 0);
-$unwanted = array('.','..','.DS_Store','Home');
+$unwanted = array('.','..','.DS_Store',);
 
+// Forming a nested array which functions as the file directory
 
 foreach($tabs as $tab){
 	if(!in_array($tab, $unwanted)){
-		
-		$nav[]= $tab;
+		//$nav[]= $tab;
+		$dir = 'Nav/'.$tab;
+		$pages = scandir($dir,0);
+		foreach($pages as $page){
+			if(!in_array($page,$unwanted)){
+				$menu[$tab][]=$page;
+			}
+		};
 	}
 };
 unset($tab);
 
 
-foreach ($nav as $select) {
-	$dir = 'Nav/'.$select;
-	$pagez = scandir($dir,0);
-	foreach($pagez as $p){
-		if(!in_array($p,$unwanted)){
-			$menu[$select][]= $p ;
-		}
-	};
-}; 
-
-
-
+//Code which creates the list
 
 echo "<nav> <ul>";
 foreach($menu as $header => $options){
@@ -42,5 +41,14 @@ foreach($menu as $header => $options){
 echo "</ul> </nav>";
 
 
-?>
+/*foreach ($nav as $select) {
+	$dir = 'Nav/'.$select;
+	$pagez = scandir($dir,0);
+	foreach($pagez as $p){
+		if(!in_array($p,$unwanted)){
+			$menu[$select][]= $p ;
+		}
+	};
+}; */
 
+?>
