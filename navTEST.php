@@ -1,12 +1,8 @@
 <?php
 
-require_once 'config.php';
-
-
 chdir(SERVER_ROOT);
 
-
-$tabs = scandir(Nav, 0);
+$tabs = scandir('Nav', 0);
 $unwanted = array('.','..','.DS_Store',);
 
 // Forming a nested array which functions as the file directory
