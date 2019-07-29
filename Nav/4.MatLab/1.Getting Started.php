@@ -92,7 +92,7 @@ require_once '../../headerTEST.php' ;
 				</p>
 					<br>
 				<p class="mat_text">
-					x = [lower limit: increment: upper limit];
+					x = [lower limit:increment:upper limit];
 					<br>
 					y = function of x;
 					<br>
@@ -106,7 +106,7 @@ require_once '../../headerTEST.php' ;
 					Here we are using the following code:
 				</p>
 				<p class="mat_text">
-					x = [0: 0.1: 4*pi];
+					x = [0:0.1:4*pi];
 					<br>
 					y = sin(x);
 					<br>
@@ -123,7 +123,7 @@ require_once '../../headerTEST.php' ;
 				</p>
 					<br>
 				<p class="mat_text">
-					[x, y] = meshgrid[lower limit: increment: upper limit];
+					[x, y] = meshgrid[lower limit:increment:upper limit];
 					<br>
 					z = function of x and y;
 					<br>
@@ -134,7 +134,7 @@ require_once '../../headerTEST.php' ;
 					Here we are using the following code:
 				</p>
 				<p class="mat_text">
-					[x, y] = meshgrid[-5: 0.1: 5];
+					[x, y] = meshgrid[-5:0.1:5];
 					<br>
 					z = x.^2 - y.^2;
 					<br>
