@@ -35,10 +35,6 @@ h3{
     text-align: center; 
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .column {
   float: left;
   padding: 5px;
@@ -52,46 +48,46 @@ h3{
 }
 
 .row2 {
-    width: 800px;
-    padding: 10px 0;
-    overflow: hidden;
-  	margin: 0 auto;
+  width: 800px;
+  padding: 10px 0;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 #Tom{
 	margin-left:60px;
-    display: block;
-    text-align: center; 
+  display: block;
+  text-align: center; 
 }
 
 #Tim{
 	margin-left: 190px;
-    display: block;
-    text-align: center; 
+  display: block;
+  text-align: center; 
 }
 
 #Neila{
 	margin-left: 150px;
-    display: block;
-    text-align: center; 
+  display: block;
+  text-align: center; 
 }
 
 #James{
 	margin-left: 55px;
-    display: block;
-    text-align: center; 
+  display: block;
+  text-align: center; 
 }
 
 #Phil{
 	margin-left: 165px;
-    display: block;
-    text-align: center; 
+  display: block;
+  text-align: center; 
 }
 
 #Peter{
 	margin-left: 170px;
-    display: block;
-    text-align: center; 
+  display: block;
+  text-align: center; 
 }
 
 .name {
@@ -107,11 +103,11 @@ h3{
 }
 
 .headers{
-	border-top: solid;
-	border-color: grey;
-	border-width: 1px;
-	padding-top: 7px;
-	padding-left: 0;
+  border-top: solid;
+  border-color: grey;
+  border-width: 1px;
+  padding-top: 7px;
+  padding-left: 0;
 }
 
 #map{
@@ -121,10 +117,10 @@ h3{
 }
 
 .text{
-	width: 800px;
-	margin: 0 auto;
-	padding-bottom: 10px;
-	text-align: justify;
-	font-family: "Arial", cursive, serif;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  text-align: justify;
+  font-family: "Arial", cursive, serif;
 
 }
