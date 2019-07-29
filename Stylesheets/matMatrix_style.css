@@ -15,6 +15,7 @@ h2{
 	width: 800px;
 	margin: 0 auto;
 	color: black;
+  padding-bottom: 10px;
 }
 
 .headers{
@@ -23,6 +24,7 @@ h2{
   border-width: 1px;
   padding-top: 7px;
   padding-left: 0;
+  clear: both;
 }
 
 #interface{
@@ -75,4 +77,19 @@ h3{
 
 #conclusion{
   padding-bottom: 20px;
+}
+
+#short1{
+  float: left;
+  padding-right: 100px;
+}
+
+#short2{
+  float: left;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+#short3{
+  float: left;
 }

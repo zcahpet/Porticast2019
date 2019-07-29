@@ -15,16 +15,16 @@ require_once '../../headerTEST.php' ;
 	<div class="content">
 		<br>
 		<p>
-			While loops are used to repeatedly execute a code as long as the underlying condition stays true.
+			While loops are used to repeatedly execute a statement as long as the underlying expression stays true.
 			<br>
 			They follow the format:
 		</p>
 		<p class="mat_text">
 			define variable;
 			<br>
-			<span style="color:blue;">while</span> (statement)
+			<span style="color:blue;">while</span> (expression)
 			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; code;
+			&nbsp;&nbsp;&nbsp;&nbsp; statement;
 			<br>
 			&nbsp;&nbsp;&nbsp;&nbsp; increment;
 			<br>
@@ -70,14 +70,14 @@ require_once '../../headerTEST.php' ;
 		<div class="content">
 		<br>
 		<p>
-			For loops are used execute a code for a set number of times. As such, unlike the while loop, the variable should not be pre-defined and no increment is needed
+			For loops are used execute a statement for a set number of times. As such, unlike the while loop, the variable should not be pre-defined and no increment is needed
 			<br>
 			They follow the format:
 		</p>
 		<p class="mat_text">
 			<span style="color:blue;">for</span> (variable = [lower limit:increment:upper limit])
 			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; code;
+			&nbsp;&nbsp;&nbsp;&nbsp; statement;
 			<br>
 			<span style="color:blue;">end</span>
 		</p>
@@ -108,8 +108,60 @@ require_once '../../headerTEST.php' ;
 			The value of x is 5
 		</p>
 		<br>
-	</div>
+		</div>
 	<h2 class="headers">Nested</h2>
-
+		<div class="content">
+		<br>
+		<p>
+			Nested loops are just a combination of multiple loops contained within one another. 
+			<br><br>
+			They do not follow a particular format since they can come in various forms. As such the following code is only an example of a nested loop which also uses the 'if function' designed to print all prime numbers between 1 and 20:
+		</p>
+		<br>
+		<p class="mat_text">
+			<span style="color:blue;">for</span> (x = [2:1:20])
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:blue;">for</span> (y = [2:1:20])
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:blue;">if</span> (~mod(x,y))
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <span style="color:blue;">break</span>
+			<br> 
+			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  <span style="color:blue;">end</span>
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:blue;">end</span>
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:blue;">if</span> (y > (x/y))
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; fprintf(<span style="color: #DB06E5;">'%i is a prime number\n'</span>, x);
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:blue;">end</span>
+			<br>
+			<span style="color:blue;">end</span>
+		</p>
+		<br>
+		<p>
+			This gives a result in the command window of:
+		</p>
+		<br>
+		<p class="mat_text">
+			2 is a prime number
+			<br>
+			3 is a prime number
+			<br>
+			5 is a prime number
+			<br>
+			7 is a prime number
+			<br>
+			11 is a prime number
+			<br>
+			13 is a prime number
+			<br>
+			17 is a prime number
+			<br>
+			19 is a prime number
+		</p>
+		<br>
+		</div>
 </body>
 </html>
