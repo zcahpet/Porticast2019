@@ -1,5 +1,8 @@
 <?php
 
+require_once 'config.php';
+
+
 chdir(SERVER_ROOT);
 
 
@@ -22,16 +25,6 @@ foreach($tabs as $tab){
 };
 unset($tab);
 
-/*foreach ($nav as $select) {
-	$dir = 'Nav/'.$select;
-	$pagez = scandir($dir,0);
-	foreach($pagez as $p){
-		if(!in_array($p,$unwanted)){
-			$menu[$select][]= $p ;
-		}
-	};
-}; */
-
 
 //Code which creates the list
 
@@ -48,5 +41,14 @@ foreach($menu as $header => $options){
 echo "</ul> </nav>";
 
 
-?>
+/*foreach ($nav as $select) {
+	$dir = 'Nav/'.$select;
+	$pagez = scandir($dir,0);
+	foreach($pagez as $p){
+		if(!in_array($p,$unwanted)){
+			$menu[$select][]= $p ;
+		}
+	};
+}; */
 
+?>
