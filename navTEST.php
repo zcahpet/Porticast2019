@@ -1,6 +1,6 @@
 <?php
 
-chdir($_SERVER['DOCUMENT_ROOT'].'/Porticast2019');
+chdir(SERVER_ROOT);
 
 
 $tabs = scandir(Nav, 0);
