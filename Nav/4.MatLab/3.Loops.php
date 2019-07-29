@@ -15,16 +15,16 @@ require_once '../../headerTEST.php' ;
 	<div class="content">
 		<br>
 		<p>
-			While loops are used to repeatedly execute a code as long as the underlying condition stays true.
+			While loops are used to repeatedly execute a statement as long as the underlying expression stays true.
 			<br>
 			They follow the format:
 		</p>
 		<p class="mat_text">
 			define variable;
 			<br>
-			<span style="color:blue;">while</span> (statement)
+			<span style="color:blue;">while</span> (expression)
 			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; code;
+			&nbsp;&nbsp;&nbsp;&nbsp; statement;
 			<br>
 			&nbsp;&nbsp;&nbsp;&nbsp; increment;
 			<br>
@@ -70,14 +70,14 @@ require_once '../../headerTEST.php' ;
 		<div class="content">
 		<br>
 		<p>
-			For loops are used execute a code for a set number of times. As such, unlike the while loop, the variable should not be pre-defined and no increment is needed
+			For loops are used execute a statement for a set number of times. As such, unlike the while loop, the variable should not be pre-defined and no increment is needed
 			<br>
 			They follow the format:
 		</p>
 		<p class="mat_text">
 			<span style="color:blue;">for</span> (variable = [lower limit:increment:upper limit])
 			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; code;
+			&nbsp;&nbsp;&nbsp;&nbsp; statement;
 			<br>
 			<span style="color:blue;">end</span>
 		</p>
@@ -115,7 +115,7 @@ require_once '../../headerTEST.php' ;
 		<p>
 			Nested loops are just a combination of multiple loops contained within one another. 
 			<br><br>
-			They do not follow a particular format since they can come in various forms. As such the following code is only an example of a nested loop designed to print all prime numbers between 1 and 20:
+			They do not follow a particular format since they can come in various forms. As such the following code is only an example of a nested loop which also uses the 'if function' designed to print all prime numbers between 1 and 20:
 		</p>
 		<br>
 		<p class="mat_text">

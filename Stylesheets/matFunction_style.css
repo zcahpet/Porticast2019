@@ -1,0 +1,78 @@
+h1{
+	border-bottom: solid;
+	border-color: grey;
+	border-width: 1px;
+	padding-bottom: 5px;
+	color: black;
+	width: 800px;
+	margin: 10px auto;
+	padding-left: 0;
+	font-family: "Arial", cursive, serif;
+}
+
+h2{
+	font-family: "Arial", cursive, serif;
+	width: 800px;
+	margin: 0 auto;
+	color: black;
+}
+
+.headers{
+  border-top: solid;
+  border-color: grey;
+  border-width: 1px;
+  padding-top: 7px;
+  padding-left: 0;
+}
+
+#interface{
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+#basics{
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.pic{
+  width: 800px;
+}
+
+p{
+  line-height:0.65cm; 
+  text-align: justify;
+}
+
+.mat_text{
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#graph_points{
+  width: 400px;
+}
+
+#graph_2d{
+  width: 400px;
+}
+
+h3{
+  padding-left: 100px;
+  width: 800px;
+  margin:0 auto;
+}
+
+#graph_3d{
+  width: 400px;
+}
+
+#conclusion{
+  padding-bottom: 20px;
+}

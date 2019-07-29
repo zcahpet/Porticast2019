@@ -134,7 +134,7 @@ require_once '../../headerTEST.php' ;
 					Here we are using the following code:
 				</p>
 				<p class="mat_text">
-					[x, y] = meshgrid[-5:0.1:5];
+					[x, y] = meshgrid(-5:0.1:5);
 					<br>
 					z = x.^2 - y.^2;
 					<br>
@@ -144,7 +144,7 @@ require_once '../../headerTEST.php' ;
 					<br><br>
 				</p>
 				<p>
-					N.B. <span style="font-family: 'Courier New', Courier, monospace;"> shading <span style="color: #DB06E5;"> interp </span></span> is not needed but removes the gridlines to give a smoother look to the graph.
+					N.B. <span style="font-family: 'Courier New', Courier, monospace;"> shading <span style="color: #DB06E5;"> interp </span></span> is not needed but removes the gridlines to give a smoother look to the graph. Also, as x and y are matrices of size 101 x 101, the '.' tells Matlab to multiply element-wise as opposed to multiply them as matrices. 
 				</p>
 				<br>
 				<img src="..\..\images\matlab\surf.png" id="graph_3d">
