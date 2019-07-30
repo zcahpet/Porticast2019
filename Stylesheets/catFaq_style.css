@@ -67,3 +67,14 @@ h3{
 .collapsible:hover:after{
 	color: black;
 }
+
+body { 
+    background: url(test.svg) repeat 0 0;
+    /*background-color: #500778;*/
+}
+
+#main{
+    background-color: white;
+    width: 810px;
+    margin: 0 auto;
+}

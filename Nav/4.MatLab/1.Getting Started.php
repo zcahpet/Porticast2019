@@ -10,6 +10,7 @@ require_once '../../headerTEST.php' ;
 	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\matStart_style.css">
 </head>
 <body>
+	<div id="main">
 		<h1>Getting Started</h1>
 		<div class="content" id="interface">
 			<h2>Matlab Interface</h2>
@@ -153,5 +154,6 @@ require_once '../../headerTEST.php' ;
 					Finally, it is worth noting that there are other types of plots such as contour plots, quiver plots etc.. which might be useful. However, this is a basic introduction to Matlab plots and therefore not the right place to introduce those.
 				</p>
 			</div>
+	</div>
 </body>
 </html>
