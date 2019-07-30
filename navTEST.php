@@ -2,7 +2,7 @@
 
 
 
-function create_list($directory){
+function create_nav($directory){
 	chdir($directory);
 	foreach (glob('*') as $fname) {
 		$folder = $directory.'/'.$fname;
@@ -11,7 +11,7 @@ function create_list($directory){
 		if (empty($path_parts['extension'])){
 			$title = substr($fname, 2);
 			echo '<li> <a href="#">'.$title.'</a> <ul>';
-			create_list($folder);
+			create_nav($folder);
 			echo '</ul> </li>';
 		} else {
 			$name = substr($fname, 2,-4);
@@ -22,7 +22,7 @@ function create_list($directory){
 
 
 echo "<nav> <ul>";
-create_list(SERVER_ROOT.'Nav');
+create_nav(SERVER_ROOT.'Nav');
 echo "</ul> </nav>";
 
 ?>
