@@ -152,6 +152,127 @@ require_once '../../headerTEST.php' ;
 		</div>
 	</div>
 	<h2 class="headers">Indexing</h2>
-
+	<div class="content">
+		<p>
+			Consider the matrix:
+		</p>
+		<p class="mat_text">
+			A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+		</p>
+		<p>
+			Written as:
+		</p>
+		<p class="mat_text">
+			A = 
+			<br>
+			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
+			<br>
+			&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp; 5 &nbsp;&nbsp; 6
+			<br>
+			&nbsp;&nbsp;&nbsp; 7 &nbsp;&nbsp; 8 &nbsp;&nbsp; 9
+			<br>
+		</p>
+		<br>
+		<p>
+			1. <u>Selecting the element in row 2 and column 3</u>:
+		</p>
+		<p class="mat_text">
+			<br>
+			A(2,3)
+		</p>
+		<p>
+			<br>
+			Which returns:
+		</p>
+		<p class="mat_text">
+			<br>
+			ans = 
+			<br>
+			&nbsp;&nbsp;&nbsp; 6
+		</p>
+		<p>
+			2. <u>Selecting the element in rows 1 to 2 and column 2 to 3</u>:
+		</p>
+		<p class="mat_text">
+			<br>
+			A(1:2,2:3)
+		</p>
+		<p>
+			<br>
+			Which returns:
+		</p>
+		<p class="mat_text">
+			<br>
+			ans = 
+			<br>
+			&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp; 3 
+			<br>
+			&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; 6
+		</p>
+		<p>
+			<br>
+			3. <u>Selecting the first row</u>:
+		</p>
+		<p class="mat_text">
+			<br>
+			A(1,:)
+		</p>
+		<p>
+			<br>
+			Which returns:
+		</p>
+		<p class="mat_text">
+			<br>
+			ans = 
+			<br>
+			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
+		</p>
+		<p>
+			<br>
+			4. <u>Selecting the third column</u>:
+		</p>
+		<p class="mat_text">
+			<br>
+			A(:,3)
+		</p>
+		<p>
+			<br>
+			Which returns:
+		</p>
+		<p class="mat_text">
+			<br>
+			ans = 
+			<br>
+			&nbsp;&nbsp;&nbsp; 3
+			<br>
+			&nbsp;&nbsp;&nbsp; 6
+			<br>
+			&nbsp;&nbsp;&nbsp; 9
+			<br>
+		</p>
+		<p>
+			5. <u>Selecting the element of index '4'</u>:
+			<br><br>
+		</p>
+		<p class="mat_text">
+			<br>
+			A(4)
+		</p>
+		<p>
+			<br>
+			Which returns:
+		</p>
+		<p class="mat_text">
+			<br>
+			ans = 
+			<br>
+			&nbsp;&nbsp;&nbsp; 2
+		</p>
+		<p>
+			<br>
+			N.B. MatLab indexes from 1 (not 0, unlike many other languages) and down each column. As such, in matrix A, the numbers 1, 4, 7 and 2 respectively have indices of 1, 2, 3 and 4. It is also possible of selecting multiple elements based on their indices using &nbsp;<span style="font-family: 'Courier New', Courier, monospace;">A(index_1, index_2, ..., index_n)</span>.
+		</p>
+		<br>
+	</div>
 </body>
 </html>
