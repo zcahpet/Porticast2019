@@ -84,7 +84,8 @@ h1{
 }
 
 body { 
-    background: url(test.jpg) repeat 0 0; 
+    /*background: url(test.jpg) repeat 0 0;*/
+    background-color: #500778;
 }
 
 #main{
