@@ -7,157 +7,17 @@ require_once '../../headerTEST.php' ;
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\matMatrix_style.css">
+	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\matMatrix2_style.css">
 </head>
 <body>
 	<h1>Matrices</h1>
-	<h2>Matrices on MatLab</h2>
-	<div class="content">
-		<p>
-			An <b>array</b> is a collection of numbers or strings (text) and matrices are simply 2-dimentional arrays. Matlab 'understands' every parametre as a matrix. Even single numbers (e.g. x = 1) and vectors (e.g. v = [1 3 2]) are taken as <b>1-by-1</b> and (in this example) <b>1-by-3</b> matrices.
-			<br><br>
-	</div>
-	<h2 class="headers">Creating Matrices</h2>
-	<div class="content">
-		<p>
-			Entering matrices on Matlab is fairly easy. They are input by entering a list of numbers separated by commas (,) for elements on a same row and semi-colons (;) for elements on the next row. 
-			<br>
-			As such, inputting:
-		</p>
-		<p class="mat_text">
-			A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
-			<br>
-			B = [10, 11, 12; 13, 14, 15; 16, 17, 18];
-		</p>
-		<p>
-			Gives:
-		</p>
-		<p class="mat_text">
-			A = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
-			<br>
-			&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp; 5 &nbsp;&nbsp; 6
-			<br>
-			&nbsp;&nbsp;&nbsp; 7 &nbsp;&nbsp; 8 &nbsp;&nbsp; 9
-			<br><br>
-				B = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 10 &nbsp; 11 &nbsp; 12
-			<br>
-			&nbsp;&nbsp;&nbsp; 13 &nbsp; 14 &nbsp; 15
-			<br>
-			&nbsp;&nbsp;&nbsp; 16 &nbsp; 17 &nbsp; 18
-		</p>
-		<br>
-		<p>
-			It is possible to <b>concatenate</b> matrices (link smaller matrices to make a bigger one) as such:
-		</p>
-		<p class="mat_text">
-			C = [A ; B];
-		</p>
-		<br>
-		<p>
-			Which gives:
-		</p>
-		<p class="mat_text">
-			C = 
-			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
-			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp; 5 &nbsp;&nbsp; 6
-			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; 7 &nbsp;&nbsp; 8 &nbsp;&nbsp; 9
-			<br>
-			&nbsp;&nbsp;&nbsp; 10 &nbsp; 11 &nbsp; 12
-			<br>
-			&nbsp;&nbsp;&nbsp; 13 &nbsp; 14 &nbsp; 15
-			<br>
-			&nbsp;&nbsp;&nbsp; 16 &nbsp; 17 &nbsp; 18
-		</p>
-		<br><br>
-		<p>
-			It is also possible to create matrices using the incremental notation seen earlier in order to save time by not having to write out each individual value:
-		</p>
-		<p class="mat_text">
-			D = [100: -11: 50; 45: -11: 0];
-		</p>
-		<p>
-			This gives a 2-by-5 matrix between 100 and 0 of increments -11:
-		</p>
-		<p class="mat_text">
-			D = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 100 &nbsp;&nbsp; 89 &nbsp;&nbsp; 78 &nbsp;&nbsp; 67 &nbsp;&nbsp; 56
-			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp; 45 &nbsp;&nbsp; 34 &nbsp;&nbsp; 23 &nbsp;&nbsp; 12 &nbsp;&nbsp&nbsp; 1
-			<br>
-		</p>
-		<div id="short">
-			<p>
-				When creating matrices, further shortcuts include
-			</p>
-			<div id="short1">
-				<p>
-					<br>
-					The identity matrix:
-				</p>
-				<p class="mat_text">
-					E = eye(3)
-					<br><br>
-					E = 
-					<br>
-					&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 0 &nbsp;&nbsp; 0
-					<br>
-					&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 1 &nbsp;&nbsp; 0
-					<br>
-					&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 0 &nbsp;&nbsp; 1
-				</p>
-			</div>
-			<div id="short2">
-				<p>
-					<br>
-					The zeroes matrix:
-				</p>
-				<p class="mat_text">
-					F = zeroes(3)
-					<br><br>
-					F = 
-					<br>
-					&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 0 &nbsp;&nbsp; 0
-					<br>
-					&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 0 &nbsp;&nbsp; 0
-					<br>
-					&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 0 &nbsp;&nbsp; 0
-				</p>
-			</div>
-			<div id="short3">
-				<p>
-					<br>
-					The ones matrix:
-				</p>
-					<p class="mat_text">
-					G = ones(3)
-					<br><br>
-					G = 
-					<br>
-					&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 1 &nbsp;&nbsp; 1
-					<br>
-					&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 1 &nbsp;&nbsp; 1
-					<br>
-					&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 1 &nbsp;&nbsp; 1
-					<br>
-				</p>
-			</div>
-		</div>
-	</div>
-	<h2 class="headers">Indexing</h2>
+	<h2>Matrix Operators</h2>
 	<div class="content">
 		<p>
 			Consider the matrix:
 		</p>
 		<p class="mat_text">
-			A = [1, 2, 3; 4, 5, 6; 7, 8, 9];
+			A = [1, 0, 5; 2, 1, 6; 3, 4, 0];
 		</p>
 		<p>
 			Written as:
@@ -165,114 +25,297 @@ require_once '../../headerTEST.php' ;
 		<p class="mat_text">
 			A = 
 			<br>
-			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
+			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 0 &nbsp;&nbsp; 5
 			<br>
-			&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp; 5 &nbsp;&nbsp; 6
+			&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp; 1 &nbsp;&nbsp; 6
 			<br>
-			&nbsp;&nbsp;&nbsp; 7 &nbsp;&nbsp; 8 &nbsp;&nbsp; 9
-			<br>
+			&nbsp;&nbsp;&nbsp; 3 &nbsp;&nbsp; 4 &nbsp;&nbsp; 0
 		</p>
 		<br>
+		<div class="op">
+			<p>
+				There are many useful tool to manipulate matrices on Matlab. Some include:
+			</p>
+			<div class="op1">
+				<p>
+					<br>
+					<u>The inverse matrix</u>:
+				</p>
+				<p class="mat_text">
+					B = inv(A)
+					<br><br>
+					E = 
+					<br>
+					&nbsp;&nbsp; -24 &nbsp;&nbsp; 20 &nbsp; -5
+					<br>
+					&nbsp;&nbsp;&nbsp; 18 &nbsp; -15 &nbsp;&nbsp; 4
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; -4 &nbsp;&nbsp; 1
+				</p>
+			</div>
+			<div class="op2">
+				<p>
+					<br>
+					<u>The transpose matrix</u>:
+				</p>
+				<p class="mat_text">
+					C = A'
+					<br><br>
+					C = 
+					<br>
+					&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
+					<br>
+					&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 1 &nbsp;&nbsp; 4
+					<br>
+					&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; 6 &nbsp;&nbsp; 0
+				</p>
+			</div>
+		</div>
+		<div class="more_op">
+			<div class="op3">
+				<p>
+					<br>
+					<u>The determinant</u>:
+				</p>
+				<p class="mat_text">
+					det(A)
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp; 1 
+				</p>
+			</div>
+			<div class="op4">
+				<p>
+					<br>
+					<u>The eigenvalues and eigenvectors</u>:
+				</p>
+				<p class="mat_text">
+					[V, D] = eig(A)
+					<br><br>
+					V = 
+					<br>
+					&nbsp;&nbsp;&nbsp; -0.4529 &nbsp; -0.7899 &nbsp;&nbsp; -0.5484
+					<br>
+					&nbsp;&nbsp;&nbsp; -0.6883 &nbsp;&nbsp; 0.5914 &nbsp;&nbsp; -0.4820
+					<br>
+					&nbsp;&nbsp;&nbsp; -0.5667 &nbsp;&nbsp; 0.1621 &nbsp;&nbsp;&nbsp; 0.6833
+					<br>
+					D = 
+					<br>
+					&nbsp;&nbsp;&nbsp; 7.2560 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; -0.0264 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; -5.2297
+				</p>
+			</div>
+				<p>
+					<br>
+					Where V is the matrix of columnar eigenvectors and D is a diagonal matrix of eigenvalues corresponding to each eigenvector.
+				</p>
+				<br>
+		</div>
+	</div>
+	<h2 class="headers">Matrix Calculations</h2>
+	<div class="content">
 		<p>
-			1. <u>Selecting the element in row 2 and column 3</u>:
+			Consider the following matrices
 		</p>
 		<p class="mat_text">
+			A = [1, 2; 3, 4];
 			<br>
-			A(2,3)
-		</p>
-		<p>
-			<br>
-			Which returns:
-		</p>
-		<p class="mat_text">
-			<br>
-			ans = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 6
-		</p>
-		<p>
-			2. <u>Selecting the element in rows 1 to 2 and column 2 to 3</u>:
-		</p>
-		<p class="mat_text">
-			<br>
-			A(1:2,2:3)
-		</p>
-		<p>
-			<br>
-			Which returns:
-		</p>
-		<p class="mat_text">
-			<br>
-			ans = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp; 3 
-			<br>
-			&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; 6
-		</p>
-		<p>
-			<br>
-			3. <u>Selecting the first row</u>:
-		</p>
-		<p class="mat_text">
-			<br>
-			A(1,:)
-		</p>
-		<p>
-			<br>
-			Which returns:
-		</p>
-		<p class="mat_text">
-			<br>
-			ans = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 &nbsp;&nbsp; 3
-		</p>
-		<p>
-			<br>
-			4. <u>Selecting the third column</u>:
-		</p>
-		<p class="mat_text">
-			<br>
-			A(:,3)
-		</p>
-		<p>
-			<br>
-			Which returns:
-		</p>
-		<p class="mat_text">
-			<br>
-			ans = 
-			<br>
-			&nbsp;&nbsp;&nbsp; 3
-			<br>
-			&nbsp;&nbsp;&nbsp; 6
-			<br>
-			&nbsp;&nbsp;&nbsp; 9
-			<br>
-		</p>
-		<p>
-			5. <u>Selecting the element of index '4'</u>:
+			B = [5, 6; 7, 8];
 			<br><br>
-		</p>
-		<p class="mat_text">
+			A = 
 			<br>
-			A(4)
-		</p>
-		<p>
+			&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 2 
 			<br>
-			Which returns:
-		</p>
-		<p class="mat_text">
+			&nbsp;&nbsp;&nbsp; 3 &nbsp;&nbsp; 4 
+			<br><br>
+				B = 
 			<br>
-			ans = 
+			&nbsp;&nbsp;&nbsp; 5 &nbsp; 6
 			<br>
-			&nbsp;&nbsp;&nbsp; 2
+			&nbsp;&nbsp;&nbsp; 7 &nbsp; 8
 		</p>
-		<p>
-			<br>
-			N.B. MatLab indexes from 1 (not 0, unlike many other languages) and down each column. As such, in matrix A, the numbers 1, 4, 7 and 2 respectively have indices of 1, 2, 3 and 4. It is also possible of selecting multiple elements based on their indices using &nbsp;<span style="font-family: 'Courier New', Courier, monospace;">A(index_1, index_2, ..., index_n)</span>.
-		</p>
-		<br>
+		<div class="op">
+			<div class="op5">
+				<p>
+					<br>
+					<u>Addition</u>:
+				</p>
+				<p class="mat_text">
+					A + B
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 6 &nbsp;&nbsp; 8
+					<br>
+					&nbsp;&nbsp;&nbsp; 10 &nbsp; 23
+					<br>
+				</p>
+			</div>
+			<div class="op6">
+				<p>
+					<br>
+					<u>Subtraction</u>:
+				</p>
+				<p class="mat_text">
+					B - A
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp; 4
+					<br>
+					&nbsp;&nbsp;&nbsp; 4 &nbsp;&nbsp; 4
+				</p>
+			</div>
+		</div>
+		<div class="more_op">
+			<div class="op7">
+				<p>
+					<br>
+					<u>Multiplication</u>:
+				</p>
+				<p class="mat_text">
+					A * B
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp; 19 &nbsp;&nbsp; 22
+					<br>
+					&nbsp;&nbsp;&nbsp; 43 &nbsp;&nbsp; 50
+				</p>
+			</div>
+			<div class="op8">
+				<p>
+					<br>
+					<u>Division</u>:
+				</p>
+				<p class="mat_text">
+					B / A
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp; -1 &nbsp;&nbsp; 2
+					<br>
+					&nbsp;&nbsp;&nbsp; -2 &nbsp;&nbsp; 3
+				</p>
+			</div>
+				<p id="calc_text">
+					<br>
+					N.B. As with normal matrix multiplication, A*B &#8800; B*A.
+				</p>
+				<br>
+		</div>
+		<div class="more_op">
+			<div class="op9">
+				<p>
+					<br>
+					<u>Element-Wise Multiplication</u>:
+				</p>
+				<p class="mat_text">
+					A .* B
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; 12
+					<br>
+					&nbsp;&nbsp;&nbsp; 21 &nbsp;&nbsp; 32
+				</p>
+			</div>
+			<div class="op10">
+				<p>
+					<br>
+					<u>Element-Wise Division</u>:
+				</p>
+				<p class="mat_text">
+					B ./ A
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; 3
+					<br>
+					&nbsp;&nbsp;&nbsp; 7/3 &nbsp;&nbsp; 2
+				</p>
+			</div>
+				<p id="calc_text">
+					<br>
+					The dot (.) means 'element-wise'. As such, the elements in the first matrix are multiplied or divided by the elements in the other matrix with the same indices and, therefore, the matrices need to be of similar size.
+				</p>
+				<br>
+		</div>
+		<div class="more_op">
+			<div class="op13">
+				<p>
+					<br>
+					<u>Exponents</u>:
+				</p>
+				<p class="mat_text">
+					A ^ 2
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 7 &nbsp;&nbsp; 10
+					<br>
+					&nbsp;&nbsp;&nbsp; 15 &nbsp;&nbsp; 22
+				</p>
+			</div>
+			<div class="op14">
+				<p>
+					<br>
+					<u>Element-Wise Exponents</u>:
+				</p>
+				<p class="mat_text">
+					A .^ 2
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp; 4
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 9 &nbsp; 16
+				</p>
+			</div>
+				<p id="calc_text">
+					<br>
+					In the first case, the matrix A is timed by itself. In the second case, each element is timed by itself individually. 
+				</p>
+				<br>
+		</div>
+		<div class="more_op">
+			<div class="op11">
+				<p>
+					<br>
+					<u>Dot Product</u>:
+				</p>
+				<p class="mat_text">
+					dot(A,B)
+					<br><br>
+					ans = 
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp; 26 &nbsp; 44
+				</p>
+			</div>
+			<div class="op12">
+				<p>
+					<br>
+					<u>Cross Product</u>:
+				</p>
+				<p>
+					<span style="font-family: 'Courier New', Courier, monospace;">cross(A,B)</span>
+					<br><br>
+					(Only performable on matrices with 
+					<br>
+					at least one dimension of length 3.)
+				</p>
+			</div>
+				<p id="calc_text">
+					<br>
+					These are vectors operation and these matrices, as mentionned in 'Getting Started', are treated as collections of vectors.
+				</p>
+				<br>
+		</div>
 	</div>
 </body>
 </html>
