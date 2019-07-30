@@ -16,6 +16,7 @@ require_once '../../headerTEST.php' ;
 		<p>
 			An <b>array</b> is a collection of numbers or strings (text) and matrices are simply 2-dimentional arrays. Matlab 'understands' every parametre as a matrix. Even single numbers (e.g. x = 1) and vectors (e.g. v = [1 3 2]) are taken as <b>1-by-1</b> and (in this example) <b>1-by-3</b> matrices.
 			<br><br>
+		</p>
 	</div>
 	<h2 class="headers">Creating Matrices</h2>
 	<div class="content">

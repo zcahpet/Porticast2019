@@ -7,7 +7,7 @@ require_once '../../headerTEST.php' ;
 <html>
 <head>
 	<title></title>
-		<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\home_style.css">
+		<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\homeTest_style.css">
 	<script type="text/javascript" src="home_script.js"></script>
 </head>
 <body>
