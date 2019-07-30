@@ -44,14 +44,17 @@ header nav ul li ul {
 	width: relative;
 }
 
-header nav ul li:hover ul  {
+header nav li:hover > ul  {
 	display: block;
 }
 
-header nav ul li ul li {
-	width:100%;
-	border-radius: 0px 0px 0px 0px;
+header nav ul ul ul {
+	left:100%;
+	top: 0;
 }
+
+
+
 
 header nav ul li ul li.last {
 	width:180px;
@@ -75,6 +78,13 @@ header nav ul li a:hover {
 }
 
 header nav ul li ul li a:hover {
+	background-color: #0097a9;
+	border: none;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+header nav ul li ul li ul li a:hover {
 	background-color: #0097a9;
 	border: none;
 	padding-top: 10px;
