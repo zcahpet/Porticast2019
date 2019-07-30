@@ -8,7 +8,8 @@ require_once '../../headerTEST.php' ;
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\catFaq_style.css">
-	<script type="text/javascript" src="..\..\Scripts\catFaq_script.js"></script>
+	<script type="text/javascript" src="..\..\Scripts\catFaq_script.js">
+	</script>
 </head>
 <body onload="collapse()">
 	<div id="main">
