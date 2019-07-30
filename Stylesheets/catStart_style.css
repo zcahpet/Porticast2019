@@ -38,7 +38,17 @@ h3{
 }
 
 .pic{
-	width: 300px;
-	display: block;
-	margin: 0 auto;
+	width: 280px;
+}
+
+
+body { 
+    background: url(test.svg) repeat 0 0;
+    /*background-color: #500778;*/
+}
+
+#main{
+    background-color: white;
+    width: 810px;
+    margin: 0 auto;
 }

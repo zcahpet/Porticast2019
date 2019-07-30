@@ -16,12 +16,6 @@ h1{
 	width: 800px
 }
 
-#main{
-	font-family: "Arial", cursive, serif;
-	color: black;
-	font-size: 18px;
-	padding-bottom: 50px;
-}
 
 h3{
 	font-family: "Arial", cursive, serif;
@@ -45,8 +39,15 @@ h3{
 	padding: 5px;
 }
 
+
+body { 
+    background: url(test.svg) repeat 0 0;
+    /*background-color: #500778;*/
+}
+
 #main{
-	padding: 10px 16px;
-	background-color: #0097a9;
-	color: #f1f1f1;
+    background-color: white;
+    width: 810px;
+    margin: 0 auto;
+    padding-bottom: 290px;
 }
