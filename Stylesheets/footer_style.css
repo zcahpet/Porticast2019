@@ -1,0 +1,43 @@
+#main {
+	/*background: url(footer.jpg) repeat 0 0;*/
+	/*background-color: red;*/
+}
+
+#footer_image{
+	width: 100%;
+}
+
+/* The naviagtion bar */ 
+footer nav {
+	width: 100%;
+	height: 43.5px;
+}
+
+footer nav ul {
+	float: left;
+	width: 100%;
+	position: relative;
+	background: url(footer.jpg) repeat 0 0;
+	background-size: 100%;
+}
+
+footer nav ul  li {
+	float: left;
+	list-style: square;
+	position: relative;
+	width:15%;
+}
+
+
+/*  Links in the navigation bar */
+footer nav ul li a {
+	display: block;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	padding: calc(219px/4) 0px; 
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
