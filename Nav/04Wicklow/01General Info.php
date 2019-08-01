@@ -10,6 +10,7 @@ require_once '../../headerTEST.php' ;
 	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\wickGen_style.css">
 </head>
 <body>
+	<iframe src="..\..\hangman.php" width="relative" height="relative" id="hangman"></iframe>
 	<div id="main">
 		<h1>General Information</h1>
 		<h3>Getting There</h3>

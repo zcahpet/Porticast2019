@@ -1,6 +1,6 @@
 <?php
 $title= "Home";
-require_once '../../headerTEST.php' ;
+require_once '../../../headerTEST.php' ;
 ?>
 
 
@@ -8,11 +8,11 @@ require_once '../../headerTEST.php' ;
 <html>
 <head>
 	<title>Porticast Body</title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\catTuto_style.css">
+	<link rel="stylesheet" type="text/css" href="..\..\..\Stylesheets\catTuto_style.css">
 </head>
 <body>
 	<div id="main">
-		<h1>Tutorials</h1>
+		<h1>3D Modelling</h1>
 		<div class="episode">
 			<h3 id="pillar">Angle Bracket 3D - 1:</h3>
 			<div class="content">
