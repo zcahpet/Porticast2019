@@ -144,6 +144,6 @@ iframe{
   float: right;
   margin: 10px;
   border-color: black; 
-  border-width: 100px;
+  border-width: 2px;
   border-style: solid;
 }
