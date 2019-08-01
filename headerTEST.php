@@ -3,7 +3,7 @@ require_once 'config.php';
 ?>
 
 
-<html>
+
 
 <head>
 	<title> <?php the_title(); ?></title>
@@ -18,9 +18,19 @@ require_once 'config.php';
 			<a id="UCLHome" href="https://www.ucl.ac.uk" target="_blank"></a>
 		</div>
 
+			
+		<?php
+		echo '<nav><ul>';
+		create_nav(SERVER_ROOT.'Nav'); 
+		echo '</ul></nav>';
+		?>
 		
-			<?php require_once 'navTEST.php'; ?>
-		
-	</header>
-</body>
-</html>
+	</header
+
+
+	
+
+
+
+
+

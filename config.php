@@ -10,7 +10,7 @@ Seems overkill at first but in time will grow and can become complex
 define("SERVER_ROOT", $_SERVER['DOCUMENT_ROOT'].'/Porticast2019/'); 
 
 // The URL of your site. Localhost in development but eventually the real URL.
-define("SERVER_ADR", "http://localhost/");
+define("SERVER_ADR", "http://localhost:8888/Porticast2019/");
 // define("SERVER_ADR", "http://www.portcast.co.uk/");
 
 /// Imports functions, note the use of constants.

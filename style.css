@@ -150,13 +150,29 @@ header nav ul li ul li .selectedend {
 
 /*Quiz*/
 
-#totalcorrect {
+#totalcorrect, #TimedQuestion, #Finish, #Reset {
 	visibility: hidden;
 }
 
-#TimedQuestion{
-	visibility: hidden;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
