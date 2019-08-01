@@ -3,7 +3,7 @@ require_once 'config.php';
 ?>
 
 
-<html>
+
 
 <head>
 	<title> <?php the_title(); ?></title>
