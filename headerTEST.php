@@ -25,7 +25,7 @@ require_once 'config.php';
 		echo '</ul></nav>';
 		?>
 		
-	</header
+	</header>
 
 
 	
