@@ -3,7 +3,7 @@
     <head>
         <title>Hangman (Game)</title>
         <link rel="stylesheet" type="text/css" href="Stylesheets/hang2_style.css">
-        <script type="text/javascript">var word = [["Tim Baker", "That game you are playing right now."], ["Neila Jurado Pontes", "About the creator of this game."], ["Tom Peach", "Markup language for creating Web pages."], ["Will Newton", "Wep page styles"], ["Federico Bosi", "A very popular server scripting language."], ["Adam Wojcik", "Make web-page dynamic without reload the web page."], ["Manish Tiwari", "Run 15 billion devices.\nA program can be run in Windows, Linux and Mac"], ["Paul Fromme", "A company that everyone can code for fun and share."], ["Helen Czerski", "What is ?\nBaby don't hurt me\nDon't hurt me\nNo more"], ["Rama Balachandran", "A lot of text in the a file."], ["Abel Nyamapfene", "There school kids go to."], ["Matthew Gaston", "Usain bolt."], ["Ryo Torii", "var hw = 'Hello World';"], ["Helge Wurdemann", "A company create Phone, Tv, Monitor, SDD, Memory chip..."], ["Andrea Ducci", "A very popular game in Nintendo 64 that have red hat."], ["Kai Luo", "Super Mario like to get."], ["Eral Bele", "14:12 or 14pm"], ["Gaetano Burriesci", "A clock that only use 0 or 1."], ["Silvia Schievano", "Link from Zelda have on the hand."], ["Ian Eames", "Not boy but ?"], ["Paul Hellier", "Not girl but ?"], ["Ali Abolfathi", "Other name as girl."], ["Liwei Guo", "Other name as boy."], ["Sunny Bains", "Something you've always on you."]]
+        <script type="text/javascript">var word = [["Tim Baker", "That game you are playing right now."], ["Neila Jurado Pontes", "About the creator of this game."], ["Tom Peach", "Markup language for creating Web pages."], ["Will Newton", "Wep page styles"], ["Federico Bosi", "The lecturer went to CalTech."], ["Adam Wojcik", "The lecturer has an MA in Archaeology and Classics."], ["Manish Tiwari", "The lecturer's research focuses on physics of small scale transport phenomena."], ["Paul Fromme", "A company that everyone can code for fun and share."], ["Helen Czerski", "The lecturer is also a TV presenter."], ["Ramanarayanan Balachandran", "A lot of text in the a file."],["Abel Nyamapfene", "There school kids go to."], ["Matthew Gaston", "Usain bolt."], ["Ryo Torii", "var hw = 'Hello World';"], ["Helge Wurdemann", "The lecturer plays drums"], ["Andrea Ducci", "The lecturer is UK Delegate on the European Federation of Chemical Engineers"], ["Kai Luo", "Super Mario like to get."], ["Eral Bele", "14:12 or 14pm"], ["Gaetano Burriesci", "A clock that only use 0 or 1."], ["Silvia Schievano", "Link from Zelda have on the hand."], ["Ian Eames", "Not boy but ?"], ["Paul Hellier", "Not girl but ?"], ["Ali Abolfathi", "Other name as girl."], ["Liwei Guo", "Other name as boy."], ["Sunny Bains", "Something you've always on you."]]
 
 // Game keyboard
 var tastatur = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -141,38 +141,47 @@ function showNextFail() {
     switch(fail) {
         case 1:
             gId("g0").setAttribute("data", "true")
-            break;
-        
-        case 2:
             gId("g1").setAttribute("data", "true")
             break;
         
-        case 3:
+        /*case 2:
+            gId("g1").setAttribute("data", "true")
+            break;*/
+        
+        case 2:
             gId("g2").setAttribute("data", "true")
             break;
         
-        case 4:
+        case 3:
             gId("g3").setAttribute("data", "true")
             gId("hintButton").setAttribute("data", "true")
             break;
         
-        case 5:
+        case 4:
             gId("g4").setAttribute("data", "true")
             break;
         
-        case 6:
+        case 5:
             gId("g5").setAttribute("data", "true")
-            break;
-        
-        case 7:
             gId("g5").setAttribute("l", "true")
-            break;
-        
-        case 8:
             gId("g5").setAttribute("r", "true")
             break;
         
-        case 9:
+        case 6:
+            gId("g6").setAttribute("data", "true")
+            gId("g6").setAttribute("l", "true")
+            gId("g6").setAttribute("r", "true")
+            gameEnd(false)
+            break;
+        
+        /*case 8:
+            gId("g6").setAttribute("data", "true")
+            gId("g6").setAttribute("l", "true")
+            gId("g6").setAttribute("r", "true")
+            gameEnd(false)
+            break;
+        
+          case 9:
             gId("g6").setAttribute("data", "true")
             gId("g6").setAttribute("l", "true")
             break;
@@ -180,7 +189,7 @@ function showNextFail() {
         case 10:
             gId("g6").setAttribute("r", "true")
             gameEnd(false)
-            break;
+            break;*/
     }
 }
 

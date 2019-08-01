@@ -9,7 +9,7 @@ function create_nav($directory){
 	chdir($directory);
 	foreach (glob('*') as $fname) {
 		$folder = $directory.'/'.$fname;
-		$cheat = substr($directory, 25).'/';
+		$cheat = substr($directory, 14).'/';
 		$path_parts = pathinfo($folder);
 		if (empty($path_parts['extension'])){
 			$title = substr($fname, 2);
