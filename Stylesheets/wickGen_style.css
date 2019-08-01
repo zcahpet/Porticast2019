@@ -134,16 +134,28 @@ body {
     clear: all;
     background-color: white;
     width: 810px;
-    margin: 0 400px 0 auto;
+    margin: 0 auto 0 400px;
     font-family: "Arial", cursive, serif;
 }
 
-iframe{
+#hangman{
   width: 300px;
   height: 600px;
-  float: right;
+  float: left;
   margin: 10px;
   border-color: black; 
   border-width: 2px;
   border-style: solid;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+@media (max-width: 1200px) {
+    #hangman {
+        display: none;
+    }
+    #main {
+      margin: 0 auto;
+    }
 }
