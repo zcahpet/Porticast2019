@@ -83,7 +83,8 @@ body {
 }
 
 #main{
-    background-color: white;
-    width: 810px;
-    margin: 0 auto;
+  background-color: white;
+  width: 810px;
+  margin: 0 auto;
+  font-family: "Arial", cursive, serif;
 }

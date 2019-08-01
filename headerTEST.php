@@ -21,6 +21,6 @@ require_once 'config.php';
 		
 			<?php require_once 'navTEST.php'; ?>
 		
-	</header
-
-
+	</header>
+</body>
+</html>

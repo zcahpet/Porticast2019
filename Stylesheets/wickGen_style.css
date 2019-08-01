@@ -124,3 +124,26 @@ h3{
   font-family: "Arial", cursive, serif;
 
 }
+
+body { 
+    background: url(test.svg) repeat 0 0;
+    /*background-color: #500778;*/
+}
+
+#main{
+    clear: all;
+    background-color: white;
+    width: 810px;
+    margin: 0 400px 0 auto;
+    font-family: "Arial", cursive, serif;
+}
+
+iframe{
+  width: 300px;
+  height: 600px;
+  float: right;
+  margin: 10px;
+  border-color: black; 
+  border-width: 100px;
+  border-style: solid;
+}

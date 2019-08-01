@@ -11,23 +11,24 @@ h1{
 }
 
 #intro{
-	width: 800px;
-	margin-right: auto;
-	margin-left:auto;
-	text-align: justify; 
+    width: 800px;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: justify; 
+    color: black;
 }
 
 .text{
-	color: black;
-	font-family: "Arial", cursive, serif;
+    color: black;
+    font-family: "Arial", cursive, serif;
 }
 
 #catia {
     width: 800px;
     padding: 10px;
     overflow: hidden;
-  	margin-right: auto;
-	margin-left:auto;
+    margin-right: auto;
+    margin-left:auto;
 }
 
 #catia img {
@@ -36,7 +37,7 @@ h1{
 }
 
 #catia p{
-	margin-top: 50px;
+    margin-top: 50px;
     margin-left: 15px;
     display: block;
     text-align: justify; 
@@ -46,8 +47,8 @@ h1{
     width: 800px;
     padding: 10px;
     overflow: hidden;
-	margin-right: auto;
-	margin-left:auto;
+    margin-right: auto;
+    margin-left:auto;
 }
 
 #matlab img {
@@ -56,7 +57,7 @@ h1{
 }
 
 #matlab p{
-	margin-top: 100px;
+    margin-top: 100px;
     margin-right: 15px;
     display: block;
     text-align: justify; 
@@ -67,7 +68,7 @@ h1{
     padding: 10px;
     overflow: hidden;
     margin-right: auto;
-	margin-left:auto;
+    margin-left:auto;
 }
 
 #wicklow img {
@@ -76,9 +77,20 @@ h1{
 }
 
 #wicklow p{
-	margin-top: 50px;
+    margin-top: 50px;
     margin-right: 15px;
     display: block;
     text-align: justify; 
 }
 
+body { 
+    background: url(test.svg) repeat 0 0;
+    /*background-color: #500778;*/
+}
+
+#main{
+    background-color: white;
+    width: 810px;
+    margin: 0 auto;
+    font-family: "Arial", cursive, serif;
+}
