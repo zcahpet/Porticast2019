@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\footer_style.css">
+	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\footer_style.css">
 </head>
-<footer id="main">
-	<!--<img src="Stylesheets\footer.png" id="footer_image">-->
+<footer id="main2">
+	<!--<img src="..\..\Stylesheets\footer.png" id="footer_image" width="100%">-->
 		<nav>
 			<ul>
 				<li><a href="index.html"><b>HOME</b></a></li>

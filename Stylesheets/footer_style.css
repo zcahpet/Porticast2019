@@ -1,23 +1,21 @@
-#main {
+/*{
+#main2 {
 	/*background: url(footer.jpg) repeat 0 0;*/
 	/*background-color: red;*/
 }
 
-#footer_image{
-	width: 100%;
-}
 
 /* The naviagtion bar */ 
 footer nav {
 	width: 100%;
-	height: 43.5px;
+	height: 10px;
 }
 
 footer nav ul {
 	float: left;
 	width: 100%;
 	position: relative;
-	background: url(footer.jpg) repeat 0 0;
+	background: url(footer.jpg);
 	background-size: 100%;
 }
 
@@ -35,9 +33,10 @@ footer nav ul li a {
 	font-family: sans-serif;
 	font-size: 20px;
 	color: white;
-	padding: calc(219px/4) 0px; 
+	padding: calc(219px/3.5) 0px; 
 	text-decoration: none;
 	text-align: center;
-	width: 100%;
+	width: auto;
+}
 }
 
