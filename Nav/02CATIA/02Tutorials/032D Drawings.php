@@ -1,6 +1,6 @@
 <?php
 $title= "Home";
-require_once '../../../headerTEST.php' ;
+require_once 'headerTEST.php' ;
 ?>
 
 
@@ -8,7 +8,7 @@ require_once '../../../headerTEST.php' ;
 <html>
 <head>
 	<title>Porticast Body</title>
-	<link rel="stylesheet" type="text/css" href="..\..\..\Stylesheets\catTuto_style.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets\catTuto_style.css">
 </head>
 <body>
 	<div id="main">

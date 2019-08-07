@@ -6,21 +6,26 @@ function the_title() {
 }
 
 function create_nav($directory){
-	chdir($directory);
-	foreach (glob('*') as $fname) {
+	foreach (scandir(SERVER_ROOT.$directory) as $fname) {
 		$folder = $directory.'/'.$fname;
-		$cheat = substr($directory, 25).'/';
-		$path_parts = pathinfo($folder);
-		if (empty($path_parts['extension'])){
+
+		if (!is_numeric(substr($fname, 0, 2))){
+			continue;
+		}
+
+		if (is_dir(SERVER_ROOT.$folder)){
+			// Is folder
 			$title = substr($fname, 2);
 			echo '<li> <a href="#">'.$title.'</a> <ul>';
 			create_nav($folder);
 			echo '</ul> </li>';
-		} else {
+
+		} elseif (strpos($folder, ".php")) {
+			// Is page file
 			$name = substr($fname, 2,-4);
-			echo '<li> <a href="'.$cheat.$fname.'">'.$name.'</a></li>';
+			echo '<li> <a href="'.SERVER_ADR."?page=".urlencode($folder).'">'.$name.'</a></li>';
 		}
-	};
+	}
 }
 
 function after($char, $inthat)
@@ -62,7 +67,10 @@ function create_navTEST($directory){
 			$pname = after('Nav/',$directory);
 			echo '<li> <a href="'.SERVER_ADR.'?package='.$pname.'&pagename='.$fname.'">'.$name.'</a></li>';
 		}
-	};
+	}
 }
+
+
+
 
 ?>
