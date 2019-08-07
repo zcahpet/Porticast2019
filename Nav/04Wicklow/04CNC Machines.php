@@ -1,13 +1,13 @@
 <?php
 $title= "Catia Getting Started";
-require_once '../../headerTEST.php' ;
+require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Porticast Body</title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\wicklow_style.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets\wicklow_style.css">
 </head>
 <body>
 	<div class="Headers">

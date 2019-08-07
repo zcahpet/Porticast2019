@@ -1,20 +1,20 @@
 <?php
 $title= "Matlab Getting Started";
-require_once '../../headerTEST.php' ;
+require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\matStart_style.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/matStart_style.css">
 </head>
 <body>
 	<div id="main">
 		<h1>Getting Started</h1>
 		<div class="content" id="interface">
 			<h2>Matlab Interface</h2>
-				<img src="..\..\images\matlab\interface.png" class="pic">
+				<img src="Images/Matlab/interface.png" class="pic">
 				<p>
 					1. <u>The Script</u>: This is where the code is typed. Here we have simply defined a variable "var" and assigned to it the value of 2 + 3. Then, we display the value of the variable on line 2. The semi-colons (;) at the end tell Matlab that this row of code is finished. 
 					<br><br>
@@ -27,7 +27,7 @@ require_once '../../headerTEST.php' ;
 		</div>
 		<h2 class="headers">Basic Code</h2>
 			<div class="content" id="basics">
-				<img src="..\..\images\matlab\basics.png" class="pic">
+				<img src="Images/Matlab/basics.png" class="pic">
 				<p>
 					Here are some of the basic yet most useful operators on Matlab:
 					<br><br>
@@ -83,7 +83,7 @@ require_once '../../headerTEST.php' ;
 					plot(1, 2, <span style="color: #DB06E5;">'x'</span>, 1, 3, <span style="color: #DB06E5;">'x'</span>, 2, 3,<span style="color: #DB06E5;">'x'</span>, 2, 1, <span style="color: #DB06E5;">'x'</span>);
 				</p>
 				<br>
-				<img src="..\..\images\matlab\points.png" id="graph_points">
+				<img src="Images/Matlab/points.png" id="graph_points">
 			</div>
 			<br>
 			<h3>Plotting 2D Graphs</h3>
@@ -114,7 +114,7 @@ require_once '../../headerTEST.php' ;
 					plot(x, y);
 				</p>
 				<br>
-				<img src="..\..\images\matlab\wave.png" id="graph_2d">
+				<img src="Images/Matlab/wave.png" id="graph_2d">
 			</div>
 			<br>
 			<h3>Plotting 3D Graphs</h3>
@@ -148,7 +148,7 @@ require_once '../../headerTEST.php' ;
 					N.B. <span style="font-family: 'Courier New', Courier, monospace;"> shading <span style="color: #DB06E5;"> interp </span></span> is not needed but removes the gridlines to give a smoother look to the graph. Also, as x and y are matrices of size 101 x 101, the '.' tells Matlab to multiply element-wise as opposed to multiply them as matrices. 
 				</p>
 				<br>
-				<img src="..\..\images\matlab\surf.png" id="graph_3d">
+				<img src="Images/Matlab/surf.png" id="graph_3d">
 				<br><br>
 				<p id="conclusion">
 					Finally, it is worth noting that there are other types of plots such as contour plots, quiver plots etc.. which might be useful. However, this is a basic introduction to Matlab plots and therefore not the right place to introduce those.

@@ -1,13 +1,13 @@
 <?php
 $title= "Catia Getting Started";
-require_once '../../headerTEST.php' ;
+require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\matFunction_style.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets\matFunction_style.css">
 </head>
 <body>
 	<div id="main">

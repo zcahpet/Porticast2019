@@ -11,30 +11,13 @@ Could also be split into two GET variables; "package name" (Catia, Matlab, Wickl
 require_once 'config.php';
 
 // Get page name from URL
-if (array_key_exists('pagename', $_GET)){
-    $PageName = $_GET['pagename'];
+if (array_key_exists('page', $_GET)){
+    $PageName = $_GET['page'];
 }else{
     $PageName = 'Homepage';
 }
 
-if (array_key_exists('package', $_GET)){
-    $PackageName = $_GET['package'];
-}else{
-    $PackageName = '';
-}
-
-print_r($_GET) ;
-
-
-
-define("PAGE_NAME", strtolower($PageName));
-define("PACKAGE", strtolower($PackageName));
-
 echo "<html>";
-
-echo PAGE_NAME;
-echo '<br>';
-echo SERVER_ROOT.$PackageName.$PageName;
 
 
 
@@ -42,32 +25,29 @@ echo SERVER_ROOT.$PackageName.$PageName;
 require SERVER_ROOT.'headerTEST.php';
 
 // Depending on page name constant, set from URL, import a page
-switch(PAGE_NAME){
+switch($PageName){
     case '01getting started.php':
     	echo '<h1>hi</h1>';
-    	chdir(SERVER_ROOT);
-        require '/02CATIA/01Getting%20Started.php';
+        require SERVER_ROOT.'Nav/02CATIA/01Getting Started.php';
         break;
 
-    case 'test':
-    	echo "hi";
+    case 'Nav/01Catia/video':
+    case 'Nav/02Matlab/video':
+    	if (array_key_exists('vidid', $_GET) && is_numeric($_GET['vidid'])){
+            $VidID = $_GET['vidid'];
+        }else{
+            $VidID = 1;
+        }
+
+        SERVER_ROOT.'pages/Video.php';
     	break;
 
-    case 'quiz':
-        require SERVER_ROOT.'pages/Catia-Quiz.php';
-        break;
-
-    case 'faq':
-        require SERVER_ROOT.'pages/Catia-FAQ.php';
-        break;
-
-    case 'forum':
-        require SERVER_ROOT.'pages/Catia-Forum.php';
-        break;
 
     default:
-        // Always good to catch a fall through on a switch; you want to see and correct the error
-        trigger_error('Unknown page name', E_USER_ERROR);
+        if (substr($PageName, 0, 3) != "Nav"){
+            trigger_error('Stop hacking us'.substr($PageName, 0, 3), E_USER_ERROR);
+        } 
+        require SERVER_ROOT.$PageName;
 }
 
 

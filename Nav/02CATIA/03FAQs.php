@@ -1,14 +1,14 @@
 <?php
 $title= "Catia FAQs";
-require_once '../../headerTEST.php' ;
+require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="..\..\Stylesheets\catFaq_style.css">
-	<script type="text/javascript" src="..\..\Scripts\catFaq_script.js">
+	<link rel="stylesheet" type="text/css" href="Stylesheets\catFaq_style.css">
+	<script type="text/javascript" src="Scripts\catFaq_script.js">
 	</script>
 </head>
 <body onload="collapse()">
@@ -120,7 +120,7 @@ require_once '../../headerTEST.php' ;
 			</button>
 			<div class="content">
 	  			<p>There is a specific toolbar just for this. Simply click it and choose from a list of presets that CATIA has to offer, or alternatively enter your own properties to create a specific material.
-	  				<img src="p.png">
+	  				<!--<img src="p.png">-->
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -128,7 +128,7 @@ require_once '../../headerTEST.php' ;
 			</button>
 			<div class="content">
 	  			<p>Simply drag the compass by the red block on to the face that you wish and it will snap on to it automatically. To remove it, reset the compass.
-	  				<img src="p.png">
+	  				<!--<img src="p.png">-->
 	  			</p>
 			</div>
 			<button class="collapsible" >
