@@ -22,13 +22,12 @@ echo "<html>";
 
 
 // Print header
-require SERVER_ROOT.'headerTEST.php';
+require SERVER_ROOT.'header.php';
 
 // Depending on page name constant, set from URL, import a page
 switch($PageName){
-    case '01getting started.php':
-    	echo '<h1>hi</h1>';
-        require SERVER_ROOT.'Nav/02CATIA/01Getting Started.php';
+    case 'Homepage':
+        require SERVER_ROOT.'Nav/01Home.php';
         break;
 
     case 'Nav/01Catia/video':
