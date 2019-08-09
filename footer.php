@@ -4,6 +4,8 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="Stylesheets\footer_style.css">
 </head>
+<br>
+</br>
 <footer>
 		<nav>
 			<ul>
