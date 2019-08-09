@@ -1,6 +1,5 @@
 <?php
 $title= "Catia FAQs";
-require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>

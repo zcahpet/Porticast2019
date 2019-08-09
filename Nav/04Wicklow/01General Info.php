@@ -1,6 +1,5 @@
 <?php
 $title= "Wicklow General Information";
-require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>

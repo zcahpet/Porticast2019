@@ -1,6 +1,5 @@
 <?php
 $title= "Matlab Getting Started";
-require_once 'headerTEST.php' ;
 ?>
 
 <!DOCTYPE html>
