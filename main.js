@@ -135,7 +135,6 @@ function start(questionsArray){
 	
 	
 	for (var i=0; i < questionsArray.length; i++){
-		alert (questionsArray);
 		var questionArray = questionsArray[i];
 		if (questionArray[1].constructor===Array){
 			steppedQ(questionArray,i);
