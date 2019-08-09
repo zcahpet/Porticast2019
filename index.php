@@ -50,7 +50,7 @@ switch($PageName){
         require SERVER_ROOT.$PageName;
 }
 
-
+require SERVER_ROOT.'footer.php';
 
 
 echo "</body>";
