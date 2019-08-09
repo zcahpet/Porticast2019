@@ -60,13 +60,6 @@ header nav ul ul ul {
 }
 
 
-
-
-header nav ul li ul li.last {
-	width:180px;
-	overflow: hidden;
-}
-
 header nav ul li ul li a {
 	padding: 10px 0px;
 }
@@ -81,47 +74,6 @@ header nav ul li a:hover {
 	overflow: hidden;
 	color: white;
 
-}
-
-header nav ul li ul li a:hover {
-	background-color: #0097a9;
-	border: none;
-	padding-top: 10px;
-	overflow: hidden;
-}
-
-header nav ul li ul li ul li a:hover {
-	background-color: #0097a9;
-	border: none;
-	padding-top: 10px;
-	overflow: hidden;
-}
-
-
-/* Selected tab */
-header nav ul li .selected {
-	overflow: hidden;
-	background-color: #0097a9;
-	pointer-events: none;
-	padding-top: 8px;
-	border-top: 2px solid #a4dbe8;
-}
-
-header nav ul li ul li .selected {
-	overflow: hidden;
-	background-color: #0097a9;
-	pointer-events: none;
-	border-radius: 0px;
-	padding-top: 10px;
-	border-top: none;
-
-
-}
-
-header nav ul li ul li .selectedend {
-	overflow: hidden;
-	background-color: #0097a9;
-	pointer-events: none;
 }
 
 
@@ -155,6 +107,24 @@ header nav ul li ul li .selectedend {
 }
 
 
+h1{
+  border-bottom: solid;
+  border-color: grey;
+  border-width: 1px;
+  padding-bottom: 5px;
+  color: black;
+  width: 800px;
+  margin: 10px auto;
+  padding-left: 0;
+  font-family: "Arial", cursive, serif;
+}
+
+#main{
+  font-family: "Arial", cursive, serif;
+  background-color: white;
+  width: 810px;
+  margin: 0 auto;
+}
 
 
 
