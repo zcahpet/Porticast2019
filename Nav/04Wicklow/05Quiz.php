@@ -2,7 +2,6 @@
 
 $title= "Wicklow Quiz";
 
-require_once 'headerTEST.php';
 
 
 ?>

@@ -50,27 +50,5 @@ function before ($char, $inthat)
         return substr($inthat, 0, strpos($inthat, $char));
     };
 
-function create_navTEST($directory){
-	chdir($directory);
-	foreach (glob('*') as $fname) {
-		$folder = $directory.'/'.$fname;
-		$cheat = substr($directory, 25).'/';
-		$path_parts = pathinfo($folder);
-		if (empty($path_parts['extension'])){
-			$pretitle = substr($fname, 2);
-			//$title = after('-',$pretitle);
-			echo '<li> <a href="#">'.$pretitle.'</a> <ul>';
-			create_navTEST($folder);
-			echo '</ul> </li>';
-		} else {
-			$name = substr($fname, 2,-4);
-			$pname = after('Nav/',$directory);
-			echo '<li> <a href="'.SERVER_ADR.'?package='.$pname.'&pagename='.$fname.'">'.$name.'</a></li>';
-		}
-	}
-}
-
-
-
 
 ?>
