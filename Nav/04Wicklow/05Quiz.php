@@ -21,9 +21,6 @@ $title= "Wicklow Quiz";
 	<p id="Time"></p>
 
 
-	<footer>
-	</footer>
-
 </body>
 
 </html>
