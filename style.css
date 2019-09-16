@@ -4,7 +4,7 @@
 }
 
 header {
-	background-color: #a4dbe8;
+	background-color: #ff8700;
 }
 
 /* The naviagtion bar */ 
@@ -47,19 +47,19 @@ header nav ul li a {
 header nav ul li ul {
 	display: none;
 	position: absolute;
-	background-color:#a4dbe8;;
+	background-color:#ff8700;
 	padding: 0px;
 	width: relative;
 }
 
 header nav li:hover > ul  {
 	display: block;
-	border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 8px 8px;
 }
 
 header nav li:hover > ul li:hover > ul{
 	display: block;
-	border-radius: 0px 15px 15px 15px;
+	border-radius: 0px 8px 8px 8px;
 }
 
 header nav ul ul ul {
@@ -75,12 +75,12 @@ header nav ul li ul li a {
 
 /* When hovering a tab */
 header nav ul li a:hover {
-	background-color: #0097a9;
+	background-color: #8b4a00;
 	padding-top: 8px;
-	border-top: 2px solid #a4dbe8;
+	border-top: 2px solid #ff8700;
 	overflow: hidden;
 	color: white;
-	border-radius: 15px;
+	border-radius: 8px;
 
 }
 
@@ -129,7 +129,9 @@ h1{
 
 #main{
   font-family: "Arial", cursive, serif;
-  background-color: white;
+  padding: 10px 50px 10px 50px;
+  /*background-color: rgba(255, 0, 0, 0);
+  background: linear-gradient(to right, rgba(255,0,0,0), white 6%, white 94%, rgba(0,0,0,0));*/
   width: 810px;
   margin: 0 auto;
 }
