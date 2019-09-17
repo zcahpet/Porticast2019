@@ -2,17 +2,12 @@
 $title= "Catia Getting Started";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\matLoop_style.css">
-</head>
+
 <body>
-	<div id="main">
+	<div id="background">
+	<article>
 		<h1>Loops</h1>
 		<h2>While</h2>
-		<div class="content">
 			<br>
 			<p>
 				While loops are used to repeatedly execute a statement as long as the underlying expression stays true.
@@ -65,9 +60,9 @@ $title= "Catia Getting Started";
 				N.B. The <span style="font-family: 'Courier New', Courier, monospace; color: #DB06E5;">%i</span> means that the number should be an integer and <span style="font-family: 'Courier New', Courier, monospace; color: #DB06E5;">\n</span> signifies a linebreak. On the otherhand, the <span style="font-family: 'Courier New', Courier, monospace;">, x</span> determines which variable this applies to. This is not specific to the while loop and is not needed for mathematical operations.
 			</p>
 			<br>
-		</div>
-		<h2 class="headers">For</h2>
-			<div class="content">
+		<hr>
+		<h2>For</h2>
+			
 			<br>
 			<p>
 				For loops are used execute a statement for a set number of times. As such, unlike the while loop, the variable should not be pre-defined and no increment is needed
@@ -108,9 +103,8 @@ $title= "Catia Getting Started";
 				The value of x is 5
 			</p>
 			<br>
-			</div>
-		<h2 class="headers">Nested</h2>
-			<div class="content">
+		<hr>
+		<h2>Nested</h2>
 			<br>
 			<p>
 				Nested loops are just a combination of multiple loops contained within one another. 
@@ -162,7 +156,8 @@ $title= "Catia Getting Started";
 				19 is a prime number
 			</p>
 			<br>
-		</div>
+		
+	</article>
 	</div>
 </body>
 </html>

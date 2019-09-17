@@ -2,24 +2,19 @@
 $title= "Catia Getting Started";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\matMatrix_style.css">
-</head>
+
 <body>
-	<div id="main">
+	<div id="background">
+	<article>
 		<h1>Matrices</h1>
 		<h2>Matrices on MatLab</h2>
-		<div class="content">
-			<p>
+					<p>
 				An <b>array</b> is a collection of numbers or strings (text) and matrices are simply 2-dimentional arrays. Matlab 'understands' every parametre as a matrix. Even single numbers (e.g. x = 1) and vectors (e.g. v = [1 3 2]) are taken as <b>1-by-1</b> and (in this example) <b>1-by-3</b> matrices.
 				<br><br>
 			</p>
-		</div>
-		<h2 class="headers">Creating Matrices</h2>
-		<div class="content">
+		<hr>
+		<h2 >Creating Matrices</h2>
+		
 			<p>
 				Entering matrices on Matlab is fairly easy. They are input by entering a list of numbers separated by commas (,) for elements on a same row and semi-colons (;) for elements on the next row. 
 				<br>
@@ -94,15 +89,27 @@ $title= "Catia Getting Started";
 				&nbsp;&nbsp;&nbsp;&nbsp; 45 &nbsp;&nbsp; 34 &nbsp;&nbsp; 23 &nbsp;&nbsp; 12 &nbsp;&nbsp&nbsp; 1
 				<br>
 			</p>
-			<div id="short">
-				<p>
+
+			<p>
 					When creating matrices, further shortcuts include
-				</p>
-				<div id="short1">
-					<p>
-						<br>
-						The identity matrix:
-					</p>
+			</p>
+
+
+			<div class="container">
+			<div class = "row">
+				<div class = "col4">
+					<p>The identity matrix </p>
+				</div>
+				<div class = "col4">
+					<p>The zeroes matrix</p>
+				</div>
+				<div class = "col4">
+					<p>The ones matrix</p>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col4">
 					<p class="mat_text">
 						E = eye(3)
 						<br><br>
@@ -115,11 +122,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 0 &nbsp;&nbsp; 1
 					</p>
 				</div>
-				<div id="short2">
-					<p>
-						<br>
-						The zeroes matrix:
-					</p>
+				<div class = "col4">
 					<p class="mat_text">
 						F = zeroes(3)
 						<br><br>
@@ -132,12 +135,8 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; 0 &nbsp;&nbsp; 0
 					</p>
 				</div>
-				<div id="short3">
-					<p>
-						<br>
-						The ones matrix:
-					</p>
-						<p class="mat_text">
+				<div class = "col4">
+					<p><p class="mat_text">
 						G = ones(3)
 						<br><br>
 						G = 
@@ -152,8 +151,10 @@ $title= "Catia Getting Started";
 				</div>
 			</div>
 		</div>
-		<h2 class="headers">Indexing</h2>
-		<div class="content">
+		<br>
+		<hr>
+		<h2 >Indexing</h2>
+		
 			<p>
 				Consider the matrix:
 			</p>
@@ -253,7 +254,7 @@ $title= "Catia Getting Started";
 			</p>
 			<p>
 				5. <u>Selecting the element of index '4'</u>:
-				<br><br>
+				<br>
 			</p>
 			<p class="mat_text">
 				<br>
@@ -274,7 +275,8 @@ $title= "Catia Getting Started";
 				N.B. MatLab indexes from 1 (not 0, unlike many other languages) and down each column. As such, in matrix A, the numbers 1, 4, 7 and 2 respectively have indices of 1, 2, 3 and 4. It is also possible of selecting multiple elements based on their indices using &nbsp;<span style="font-family: 'Courier New', Courier, monospace;">A(index_1, index_2, ..., index_n)</span>.
 			</p>
 			<br>
-		</div>
+
+	</article>
 	</div>
 </body>
 </html>

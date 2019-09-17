@@ -2,18 +2,13 @@
 $title= "Matlab Getting Started";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets/matStart_style.css">
-</head>
 <body>
-	<div id="main">
+	<div id="background">
+	<article>
 		<h1>Getting Started</h1>
-		<div class="content" id="interface">
+		<div >
 			<h2>Matlab Interface</h2>
-				<img src="Images/Matlab/interface.png" class="pic">
+				<img src="Images/Matlab/interface.png" width="800px">
 				<p>
 					1. <u>The Script</u>: This is where the code is typed. Here we have simply defined a variable "var" and assigned to it the value of 2 + 3. Then, we display the value of the variable on line 2. The semi-colons (;) at the end tell Matlab that this row of code is finished. 
 					<br><br>
@@ -24,9 +19,10 @@ $title= "Matlab Getting Started";
 					4. <u>The Toolbar</u>: This is where all the useful tools are stored. It allows the user to Run the code as well as saving and opening files and many other commands.
 				</p>
 		</div>
-		<h2 class="headers">Basic Code</h2>
-			<div class="content" id="basics">
-				<img src="Images/Matlab/basics.png" class="pic">
+		<hr>
+		<h2 >Basic Code</h2>
+			<div >
+				<img src="Images/Matlab/basics.png" width="800px">
 				<p>
 					Here are some of the basic yet most useful operators on Matlab:
 					<br><br>
@@ -52,10 +48,11 @@ $title= "Matlab Getting Started";
 					<br><br>
 				</p>
 			</div>
-		<h2 class="headers">Plotting</h2>
+		<hr>
+		<h2 >Plotting</h2>
 		<br>
 			<h3>Plotting Points</h3>
-			<div class="content" id="graph1">
+			<div  id="graph1">
 				<p>
 					Plotting specific points on Matlab is easy and follows the format:
 				</p>
@@ -82,11 +79,11 @@ $title= "Matlab Getting Started";
 					plot(1, 2, <span style="color: #DB06E5;">'x'</span>, 1, 3, <span style="color: #DB06E5;">'x'</span>, 2, 3,<span style="color: #DB06E5;">'x'</span>, 2, 1, <span style="color: #DB06E5;">'x'</span>);
 				</p>
 				<br>
-				<img src="Images/Matlab/points.png" id="graph_points">
+				<img src="Images/Matlab/points.png" width="400px">
 			</div>
 			<br>
 			<h3>Plotting 2D Graphs</h3>
-			<div class="content" id="graph2">
+			<div  id="graph2">
 				<p>
 					Plotting 2D graphs on Matlab follows the format:
 				</p>
@@ -113,11 +110,11 @@ $title= "Matlab Getting Started";
 					plot(x, y);
 				</p>
 				<br>
-				<img src="Images/Matlab/wave.png" id="graph_2d">
+				<img src="Images/Matlab/wave.png" width="400px">
 			</div>
 			<br>
 			<h3>Plotting 3D Graphs</h3>
-			<div class="content" id="graph3">
+			<div  id="graph3">
 				<p>
 					Plotting 3D graphs on Matlab follows the format:
 				</p>
@@ -147,16 +144,15 @@ $title= "Matlab Getting Started";
 					N.B. <span style="font-family: 'Courier New', Courier, monospace;"> shading <span style="color: #DB06E5;"> interp </span></span> is not needed but removes the gridlines to give a smoother look to the graph. Also, as x and y are matrices of size 101 x 101, the '.' tells Matlab to multiply element-wise as opposed to multiply them as matrices. 
 				</p>
 				<br>
-				<img src="Images/Matlab/surf.png" id="graph_3d">
+				<img src="Images/Matlab/surf.png" width="400px">
 				<br><br>
-				<p id="conclusion">
+				<p >
 					Finally, it is worth noting that there are other types of plots such as contour plots, quiver plots etc.. which might be useful. However, this is a basic introduction to Matlab plots and therefore not the right place to introduce those.
 				</p>
 			</div>
+	</article>
 	</div>
 </body>
 </html>
 
-<?php
-require_once '../../footer.php';
-?>
+
