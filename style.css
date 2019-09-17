@@ -134,13 +134,7 @@ h1{
 }
 
 #background {
-  font-family: "Arial", cursive, serif;
-<<<<<<< HEAD
-  padding: 10px 50px 10px 50px;
-  /*background-color: rgba(255, 0, 0, 0);
-  background: linear-gradient(to right, rgba(255,0,0,0), white 6%, white 94%, rgba(0,0,0,0));*/
-  width: 810px;
-=======
+  padding: 0px 10px;
   background-color: white;
   width: 850px;
   margin: 0 auto;
@@ -246,7 +240,7 @@ p{
   border-color: black;
   border-width: 1px;
   border-style: solid;
-  background-color: #500778;
+  background-color: #ff8700;
   width: 800px;
   margin: 4px auto;
   color: white;
@@ -255,7 +249,7 @@ p{
 }
 
 .active, .collapsible:hover {
-  background-color: #a4dbe8;
+  background-color: #8b4a00;
   color: black;
 }
 
