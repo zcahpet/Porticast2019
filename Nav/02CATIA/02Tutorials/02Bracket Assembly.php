@@ -7,13 +7,9 @@ $title= "Home";
 
 <body>
 	<div id="background">
-	<div id="container">
+	<article>
 
-		<div class="row">
-		<div class="col12">
 			<h1>Bracket Assembly</H1>
-		</div>
-		</div>
 
 		
 
@@ -123,7 +119,7 @@ $title= "Home";
 	
 
 
-	</div>
+	</article>>
 	</div>
 </body>
 </html>
