@@ -2,17 +2,13 @@
 $title= "Catia Getting Started";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\matMatrix2_style.css">
-</head>
+
 <body>
-	<div id="main">
+	<div id="background">
+	<article>
 		<h1>Matrices</h1>
 		<h2>Matrix Operators</h2>
-		<div class="content">
+		
 			<p>
 				Consider the matrix:
 			</p>
@@ -32,11 +28,13 @@ $title= "Catia Getting Started";
 				&nbsp;&nbsp;&nbsp; 3 &nbsp;&nbsp; 4 &nbsp;&nbsp; 0
 			</p>
 			<br>
-			<div class="op">
+			
 				<p>
 					There are many useful tool to manipulate matrices on Matlab. Some include:
 				</p>
-				<div class="op1">
+
+				<div class = "row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>The inverse matrix</u>:
@@ -53,7 +51,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp;&nbsp; 5 &nbsp;&nbsp; -4 &nbsp;&nbsp; 1
 					</p>
 				</div>
-				<div class="op2">
+				<div class="col6">
 					<p>
 						<br>
 						<u>The transpose matrix</u>:
@@ -71,8 +69,10 @@ $title= "Catia Getting Started";
 					</p>
 				</div>
 			</div>
-			<div class="more_op">
-				<div class="op3">
+
+
+			<div class="row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>The determinant</u>:
@@ -85,7 +85,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 1 
 					</p>
 				</div>
-				<div class="op4">
+				<div class="col6">
 					<p>
 						<br>
 						<u>The eigenvalues and eigenvectors</u>:
@@ -110,15 +110,15 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp; -5.2297
 					</p>
 				</div>
+			</div>
 					<p>
 						<br>
 						Where V is the matrix of columnar eigenvectors and D is a diagonal matrix of eigenvalues corresponding to each eigenvector.
 					</p>
 					<br>
-			</div>
-		</div>
-		<h2 class="headers">Matrix Calculations</h2>
-		<div class="content">
+		<hr>
+		<h2 >Matrix Calculations</h2>
+		
 			<p>
 				Consider the following matrices
 			</p>
@@ -139,8 +139,8 @@ $title= "Catia Getting Started";
 				<br>
 				&nbsp;&nbsp;&nbsp; 7 &nbsp; 8
 			</p>
-			<div class="op">
-				<div class="op5">
+			<div class="row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Addition</u>:
@@ -156,7 +156,7 @@ $title= "Catia Getting Started";
 						<br>
 					</p>
 				</div>
-				<div class="op6">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Subtraction</u>:
@@ -172,8 +172,8 @@ $title= "Catia Getting Started";
 					</p>
 				</div>
 			</div>
-			<div class="more_op">
-				<div class="op7">
+			<div class="row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Multiplication</u>:
@@ -188,7 +188,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 43 &nbsp;&nbsp; 50
 					</p>
 				</div>
-				<div class="op8">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Division</u>:
@@ -203,14 +203,14 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; -2 &nbsp;&nbsp; 3
 					</p>
 				</div>
-					<p id="calc_text">
+					<p>
 						<br>
 						N.B. As with normal matrix multiplication, A*B &#8800; B*A.
 					</p>
 					<br>
 			</div>
-			<div class="more_op">
-				<div class="op9">
+			<div class="row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Element-Wise Multiplication</u>:
@@ -225,7 +225,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 21 &nbsp;&nbsp; 32
 					</p>
 				</div>
-				<div class="op10">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Element-Wise Division</u>:
@@ -240,14 +240,15 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 7/3 &nbsp;&nbsp; 2
 					</p>
 				</div>
-					<p id="calc_text">
+			</div>
+					<p>
 						<br>
 						The dot (.) means 'element-wise'. As such, the elements in the first matrix are multiplied or divided by the elements in the other matrix with the same indices and, therefore, the matrices need to be of similar size.
 					</p>
 					<br>
-			</div>
-			<div class="more_op">
-				<div class="op13">
+			
+			<div class="row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Exponents</u>:
@@ -262,7 +263,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp; 15 &nbsp;&nbsp; 22
 					</p>
 				</div>
-				<div class="op14">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Element-Wise Exponents</u>:
@@ -277,14 +278,15 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp;&nbsp; 9 &nbsp; 16
 					</p>
 				</div>
-					<p id="calc_text">
+			</div>
+					<p>
 						<br>
 						In the first case, the matrix A is timed by itself. In the second case, each element is timed by itself individually. 
 					</p>
 					<br>
-			</div>
-			<div class="more_op">
-				<div class="op11">
+			
+			<div class="row">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Dot Product</u>:
@@ -297,7 +299,7 @@ $title= "Catia Getting Started";
 						&nbsp;&nbsp;&nbsp;&nbsp; 26 &nbsp; 44
 					</p>
 				</div>
-				<div class="op12">
+				<div class="col6">
 					<p>
 						<br>
 						<u>Cross Product</u>:
@@ -310,13 +312,15 @@ $title= "Catia Getting Started";
 						at least one dimension of length 3.)
 					</p>
 				</div>
-					<p id="calc_text">
+			</div>
+					<p>
 						<br>
 						These are vectors operation and these matrices, as mentionned in 'Getting Started', are treated as collections of vectors.
 					</p>
 					<br>
-			</div>
-		</div>
+		
+		
+	</article>	
 	</div>
 </body>
 </html>

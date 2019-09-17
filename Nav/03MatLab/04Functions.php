@@ -2,17 +2,13 @@
 $title= "Catia Getting Started";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\matFunction_style.css">
-</head>
+
 <body>
-	<div id="main">
+	<div id="background">
+	<article>
 		<h1>Functions</h1>
 		<h2>If</h2>
-		<div class="content">
+		
 			<br>
 			<p>
 				The If function is used to conditionally execute statements depen
@@ -76,10 +72,11 @@ $title= "Catia Getting Started";
 			<p>
 				Now, if the values of x or y are changed, the code will adapt to give an appropriate response to the new situation.
 			</p>
-		</div>
+		
 		<br>
-		<h2 class="headers">Switch</h2>
-		<div class="content">
+		<hr>
+		<h2 >Switch</h2>
+		
 			<br>
 			<p>
 				The 'elseif' and 'else' statements are useful but can get a little bit messy when there are a lot of different cases. As such, it might be preferable to use the 'switch' function. 
@@ -148,9 +145,10 @@ $title= "Catia Getting Started";
 				The expression is quadratic.
 			</p>
 			<br>
-		</div>
-		<h2 class="headers">Creating Functions</h2>
-		<div class="content">
+		
+		<hr>
+		<h2 >Creating Functions</h2>
+		
 			<br>
 			<p>
 				Sometimes, it might be useful to create a function as to avoid typing the same text over and over again. This makes the code more compact and easier to read. It is possible to define your own functions.
@@ -188,7 +186,8 @@ $title= "Catia Getting Started";
 				&nbsp;&nbsp;&nbsp;&nbsp; 1.2
 			</p>
 			<br>
-		</div>
+		
+	</article>
 	</div>
 </body>
 </html>

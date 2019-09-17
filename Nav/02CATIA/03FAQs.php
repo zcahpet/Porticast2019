@@ -2,16 +2,15 @@
 $title= "Catia FAQs";
 ?>
 
-<!DOCTYPE html>
-<html>
+
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="Stylesheets\catFaq_style.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets\cat.css">
 	<script type="text/javascript" src="Scripts\catFaq_script.js">
 	</script>
 </head>
 <body onload="collapse()">
-	<div id="main">
+	<div id="background">
 		<h1>FAQs</h1>
 		<div id="2D">
 			<h3>2D</h3>

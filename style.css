@@ -3,6 +3,11 @@
 	padding:0;
 }
 
+body{
+	font-family: "Arial", cursive, serif;
+	background: url(Stylesheets/test.svg) repeat 0 0;
+}
+
 header {
 	background-color: #a4dbe8;
 }
@@ -11,6 +16,8 @@ header {
 header nav {
 	width: 100%;
 	height: 43.5px;
+	position: relative;
+	z-index: 2;
 }
 
 header nav ul {
@@ -97,7 +104,7 @@ header nav ul li a:hover {
 	width: 3%;
 	position: absolute;
 	left: 70%;
-	top: 48%
+	top: 48%;
 }
 
 /*Quiz*/
@@ -116,27 +123,223 @@ h1{
   width: 800px;
   margin: 10px auto;
   padding-left: 0;
-  font-family: "Arial", cursive, serif;
 }
 
-#main{
+#background {
   font-family: "Arial", cursive, serif;
   background-color: white;
-  width: 810px;
+  width: 850px;
   margin: 0 auto;
 }
 
+.centredtext{
+    display: block;
+    text-align: justify;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2px 0px;
+}
+
+.mat_text{
+  font-family: "Courier New", Courier, monospace;
+}
+
+hr {
+  color: grey;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  padding-top: 7px;
+}
+
+article{
+  width:800px;
+  margin: 0 auto;
+}
+
+article li {
+  display: list-item;
+  list-style-position: inside;
+  padding: 2px 0px;
+  width: 800px;
+  margin: 0px auto;
+}
+
+.container li {
+  display: list-item;
+  list-style-position: inside;
+  padding: 2px 0px;
+  width: 800px;
+  margin: 0px auto;
+}
+
+h3{
+  width: 800px;
+  margin:0 auto;
+  padding: 10px 0;
+}
+
+h2{
+	text-decoration: underline;
+	padding: 10px 0;	
+	width: 800px;
+	margin: 0 auto;
+}
+
+p{
+	padding: 2px 0px;
+  line-height: 0.65cm;
+	
+}
+
+#map{
+  width: 800px;
+  padding: 20px 0;
+  display: block;
+}
 
 
 
+/* Videos
+----------------------------------------------------------------------------- */
+
+.video{
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.videotitle{
+	font-family: "Arial", cursive, serif;
+	clear: both;
+	border: 1px #CDCDCD solid;
+	margin-bottom: 10px;
+	padding: 5px;
+}
 
 
+/* FAQ
+----------------------------------------------------------------------------- */
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  font-size: 15px;
+  line-height: 0.1cm;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #500778;
+  width: 800px;
+  margin: 4px auto;
+  color: white;
+  text-align: justify;
+  display: block;
+}
+
+.active, .collapsible:hover {
+  background-color: #a4dbe8;
+  color: black;
+}
+
+.content {
+  padding: 0 0px;
+  overflow: hidden;
+  background-color: white;
+  text-align: justify;
+  margin: 0 auto;
+  width: 800px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\002B'; /* Unicode character for "plus" sign (+) */
+  font-size: 20px;
+  float: right;
+  margin-left: 5px;
+  color: white;
+}
+
+.active:after {
+  color: black;
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
+
+.collapsible:hover:after{
+	color: black;
+}
+
+/* Hangman
+----------------------------------------------------------------------------- */
 
 
+#hangman{
+  width: 300px;
+  height: 600px;
+  float: left;
+  margin: 10px;
+  border-color: black; 
+  border-width: 2px;
+  border-style: solid;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+@media (max-width: 1200px) {
+    #hangman {
+        display: none;
+    }
+    #main {
+      margin: 0 auto;
+    }
+}
 
 
+/* Footer
+----------------------------------------------------------------------------- */
 
 
+footer {
+  clear: both;
+  width: 100%;
+  padding: 40px 0px;
+  background-image: url("Images/ucle.png");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-color: #262525;
+  background-position: right;
+  min-width: 200px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  min-width:600px;
+}
+
+footer nav {
+  float: left;  
+}
+
+footer nav ul {
+  padding-left: 0px;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+footer nav ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
 
 
 
