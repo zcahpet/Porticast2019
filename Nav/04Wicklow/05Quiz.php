@@ -1,13 +1,11 @@
 <?php 
 
 $title= "Wicklow Quiz";
-
-
-
 ?>
 
-
-<h1> How do you change the drill bit on a cordless drill?</h1>
+<div id="background">
+<article>
+	<h1> Quiz </h1>
 	<input id="start" type="button" value="Go" onclick="start(questions);"> 
 	<div id="TimedQuestion">
 	<form id="Questions">
@@ -19,6 +17,10 @@ $title= "Wicklow Quiz";
 	
 	<p id="TotalCorrect"></p>
 	<p id="Time"></p>
+
+</article>
+</div>
+
 
 
 </body>
