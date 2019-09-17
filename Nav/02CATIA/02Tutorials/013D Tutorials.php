@@ -6,14 +6,8 @@ $title= "Home";
 
 <body>
 	<div id="background">
-	<div id="container">
-
-		<div class="row">
-		<div class="col12">
-			<h1>3D Modelling</h1>
-		</div>
-		</div>
-
+	<article>
+		<h1>3D Modelling</h1>
 		<div class="row">
 		<div class="col12">
 			<h3 class="videotitle" id="pillar">Angle Bracket 3D - 1:</h3>
@@ -188,7 +182,7 @@ $title= "Home";
 	
 	
 
-	</div>
+	</article>
 	</div>
 </body>
 </html>

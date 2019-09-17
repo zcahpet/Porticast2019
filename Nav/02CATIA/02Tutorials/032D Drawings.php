@@ -6,13 +6,9 @@ $title= "Home";
 
 <body>
 	<div id="background">
-	<div id = "container">
+	<article>
 
-		<div class="row">
-		<div class="col12">
 			<h1>2D Drawings</H1>
-		</div>
-		</div>
 
 		
 
@@ -140,7 +136,7 @@ $title= "Home";
 			
 		</div>
 		
-	</div>
+	</article>
 	</div>
 </body>
 </html>

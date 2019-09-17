@@ -11,6 +11,7 @@ $title= "Catia FAQs";
 </head>
 <body onload="collapse()">
 	<div id="background">
+		<article>
 		<h1>FAQs</h1>
 		<div id="2D">
 			<h3>2D</h3>
@@ -214,6 +215,7 @@ $title= "Catia FAQs";
 	  			</p>
 			</div>
 		</div>
+	</article>
 	</div>
 </body>
 </html>

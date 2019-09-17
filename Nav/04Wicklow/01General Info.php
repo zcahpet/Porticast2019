@@ -7,8 +7,7 @@ $title= "Wicklow General Information";
 	<iframe src="hangman.php" width="relative" height="relative" id="hangman"></iframe>
 	<div id="background">
 		<article>
-		<div class="row">
-		<div class="col12">
+		
 		<h1>General Information</h1>
 		<h3>Getting There</h3>
 			
@@ -16,20 +15,17 @@ $title= "Wicklow General Information";
 			
 			<p >The workshop is located at a 15-20 minutes walk from Robert's Building towards King's Cross St. Pancras.</p>
 
-		</div>
-		</div>
-
 		<hr>
 		<h3 >Important People</h3>
 		<div class="row">
 			<div class="col4">
-				<img src="Images\Wicklow\TomP.jpg" width="200px" height="200px">
+				<img src="Images\Wicklow\TomP.jpg" width="247px" height="247px">
 			</div>
 			<div class="col4">
-				<img src="Images\Wicklow\TimB.jpg" width="200px" height="200px">
+				<img src="Images\Wicklow\TimB.jpg" width="247px" height="247px">
 			</div>
 			<div class="col4">
-				<img src="Images\Wicklow\NeilaJ.jpg" width="200px" height="200px">
+				<img src="Images\Wicklow\NeilaJ.jpg" width="247px" height="247px">
 			</div>
 		</div>
 		<div class="row">
@@ -51,13 +47,13 @@ $title= "Wicklow General Information";
 		</div>
 		<div class="row">
 			<div class="col4">
-				<img src="Images\Wicklow\JamesW.jpg" width="200px" height="200px">
+				<img src="Images\Wicklow\JamesW.jpg" width="247px" height="247px">
 			</div>
 			<div class="col4">
-				<img src="Images\Wicklow\PhilS.jpg" width="200px" height="200px">
+				<img src="Images\Wicklow\PhilS.jpg" width="247px" height="247px">
 			</div>
 			<div class="col4">
-				<img src="Images\Wicklow\PeterK.jpg" width="200px" height="200px">
+				<img src="Images\Wicklow\PeterK.jpg" width="247px" height="247px">
 			</div>
 		</div>
 		<div class="row">
