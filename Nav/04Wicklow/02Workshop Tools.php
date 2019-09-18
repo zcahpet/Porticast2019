@@ -68,7 +68,7 @@ $title= "Home";
 			</div>
 				<div class="col3">
 					<p>
-						Welcome to this induction video on how to safely use the soldering iron
+						Welcome to this induction video on how to safely use the soldering iron.
 					</p>
 				</div>
 			
