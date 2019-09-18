@@ -6,6 +6,7 @@ $title= "Wicklow General Information";
 <body>
 	<iframe src="hangman.php" width="relative" height="relative" id="hangman"></iframe>
 	<div id="background">
+	
 		<article>
 		
 		<h1>General Information</h1>
