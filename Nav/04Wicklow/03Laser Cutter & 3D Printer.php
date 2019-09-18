@@ -19,7 +19,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/oZdEL7tEPww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/oZdEL7tEPww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -40,7 +40,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/iuE3rkXPVxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/iuE3rkXPVxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -61,7 +61,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/MHFY5JUadCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/MHFY5JUadCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -82,7 +82,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/BCkxlXDBpeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/BCkxlXDBpeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">

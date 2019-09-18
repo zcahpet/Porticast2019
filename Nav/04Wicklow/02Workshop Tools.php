@@ -21,7 +21,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src=https://youtube.com/embed/IBm27NYH3II frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src=https://youtube.com/embed/IBm27NYH3II frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -42,7 +42,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/tEgacdcftoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/tEgacdcftoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -63,7 +63,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/SXPRtzatBxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/SXPRtzatBxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -84,7 +84,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/C0h4GqDRPRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/C0h4GqDRPRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
@@ -106,7 +106,7 @@ $title= "Home";
 			
 			<div class="col9">
 				<div class="video">
-					<iframe width="580" height="372" src="https://www.youtube.com/embed/G5B0wOy2JEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="580" height="326" src="https://www.youtube.com/embed/G5B0wOy2JEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 				<div class="col3">
