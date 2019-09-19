@@ -1,9 +1,55 @@
 <?php
 
-function the_title() {
-	global $title;
-	echo "Porticast : $title" ;
+function print_page_title() {
+	echo "Porticast : " ;
+
+	if (!isset($_GET["page"])) {
+		echo 'Home';
+	} else{
+		$stem =  substr($_GET['page'],6,-4);
+		switch ($stem) {
+			case 'Home':
+				echo $stem ;
+				break;
+			
+			default:
+				$package = before('/',$stem);
+				echo $package ;
+				$page = substr(after_last ('/',$stem),2);
+				echo ' ' . $page ;
+				break;
+		}
+	}
 }
+
+
+
+function create_video_list($data){
+	foreach ($data as $video) {
+
+		echo '<div class="row"> <div class="col12">
+			<h3 class="videotitle" id="pillar">'.$video['video_title'].'</h3>
+		</div>
+		</div>
+		<div class="row">
+			
+			<div class="col9">
+				<div class="video">
+					<iframe width="580" height="326" src=https://youtube.com/embed/'.$video['id'].' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+				<div class="col3">
+					<p>' .$video['description'].'</p> </div> </div> ';
+				
+
+		# code...
+	}
+
+}
+
+
+
+
 
 function create_nav($directory){
 	foreach (scandir(SERVER_ROOT.$directory) as $fname) {
@@ -27,6 +73,10 @@ function create_nav($directory){
 		}
 	}
 }
+
+
+
+
 
 function after($char, $inthat)
     {
