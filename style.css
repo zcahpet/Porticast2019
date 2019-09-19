@@ -85,8 +85,8 @@ header nav ul li ul li a {
 /* When hovering a tab */
 header nav ul li a:hover {
 	background-color: #8b4a00;
-	padding-top: 8px;
-	border-top: 2px solid #ff8700;
+	padding-top: 10px;
+	border-top: 0px solid #ff8700;
 	overflow: hidden;
 	color: white;
 	border-radius: 8px;
