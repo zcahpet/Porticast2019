@@ -119,7 +119,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>There is a specific toolbar just for this. Simply click it and choose from a list of presets that CATIA has to offer, or alternatively enter your own properties to create a specific material.
-	  				<!--<img src="p.png">-->
+	  				<br>
+	  			<img src="Images\Catia\apply_material.jpg">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -127,7 +128,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>Simply drag the compass by the red block on to the face that you wish and it will snap on to it automatically. To remove it, reset the compass.
-	  				<!--<img src="p.png">-->
+	  				<br>
+	  			<img src="Images\Catia\compass_on_object.png">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -141,7 +143,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>Go on to the assembly tree and right click on the part that you wish to open separately. You should see an extendable panel that says the part name followed by the word “object”. Select this and then use the “Open in New Window” option.
-	  				<img src="p.png">
+	  				<br>
+	  			<img src="Images\Catia\retrieve.png">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -149,7 +152,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>The measure tool can be used to do this, whilst also producing values for things such as axial moments of inertia. Before you can do this, you need to apply a material to the part/assembly.
-					<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\measure_mass.png">
 				</p>
 			</div>
 			<button class="collapsible" >
@@ -157,7 +161,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>Go to the tools tab and select options. From there go to the “Parameters and Measure” option in the tree menu on the left, and make sure the tree view options are checked.
-					<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\restore.png">
 				</p>
 			</div>
 			<button class="collapsible" >
@@ -165,7 +170,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>There is a toolbar called sketch tools. If not already displayed, this can be found in the view tab under toolbars. There are two options available; grid and snap to point. These can be toggled on and off simply by clicking them.
-	  				<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\grid_onoff.png">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -173,7 +179,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>You could have accidentally hit the F3 key. You can use this key to toggle the visibility of the part tree so press it again, or alternatively go to the view tab, and make sure specifications is ticked.
-	  				<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\disappeared_tree.png">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -181,7 +188,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>You may have clicked on the tree stem; this causes your part to be deactivated or ‘greyed out’. Simply click on the tree stem again to reactivate your part.
-					<img src="p.png">
+					<br>
+				<img src="Images\Catia\greyed_out_part.png">
 				</p>
 			</div>
 			<button class="collapsible" >
@@ -195,7 +203,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>There are so many tools on CATIA that it can become very hectic and hard to find the one you need at times. It may be that there are too many toolbars on one of the side panels which is causing a few others to be hidden. Try moving around individual tools to different areas of the sidebars. However, it could be that the tool itself is not being displayed. To check this, go to the view tab, then toolbars. If the one you want to use is not ticked, then tick it. It is worth noting that a little time spent working on your workbench can help massively with your workflow and use of CATIA, so try to arrange the tools in an order that works for you.
-	  				<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\display_toolbars.png">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -203,7 +212,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>You may see that as well as disappearing, your axis system is greyed out in the tree. Right click it and you will see an option for hide/show. Toggle this and your axis system should reappear.
-	  				<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\axis_system.png">
 	  			</p>
 			</div>
 			<button class="collapsible" >
@@ -211,7 +221,8 @@ $title= "Catia FAQs";
 			</button>
 			<div class="content">
 	  			<p>Whilst it is very important to constrain a sketch fully, you have to be careful not to over-constrain it. If you do, the constraint will appear in purple. This is not a problem; it just means that the constraint used is not necessary. Delete it and continue as normal.
-	  				<img src="p.png">
+	  				<br>
+				<img src="Images\Catia\purple_constraint.png">
 	  			</p>
 			</div>
 		</div>
