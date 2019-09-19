@@ -1,8 +1,3 @@
-<?php
-$title= "Home";
-?>
-
-
 <body>
 <div id="background">
 

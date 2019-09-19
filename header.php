@@ -6,7 +6,7 @@ require_once 'config.php';
 
 
 <head>
-	<title> <?php the_title(); ?></title>
+	<title> <?php print_page_title(); ?></title>
 	<link rel="stylesheet" type = "text/css" href="style.css"  />
 	<link rel="stylesheet" type = "text/css" href="Stylesheets/grid.css"  />
 </head>
