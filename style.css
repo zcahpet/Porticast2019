@@ -5,7 +5,8 @@
 
 body{
 	font-family: "Arial", cursive, serif;
-	background: url(Stylesheets/test.svg) repeat 0 0;
+	background: url(Stylesheets/cubes2.png);
+	background-repeat: repeat;
 }
 
 header {
@@ -62,6 +63,7 @@ header nav ul li ul {
 header nav li:hover > ul  {
 	display: block;
 	border-radius: 0px 0px 8px 8px;
+	box-shadow: 5px 5px 20px grey;
 }
 
 header nav li:hover > ul li:hover > ul{
@@ -165,6 +167,9 @@ hr {
 article{
   width:800px;
   margin: 0 auto;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0px 0px 10px 10px;
 }
 
 article li {
@@ -249,7 +254,7 @@ p{
 
 .active, .collapsible:hover {
   background-color: #8b4a00;
-  color: black;
+  color: white;
 }
 
 .content {
@@ -273,12 +278,12 @@ p{
 }
 
 .active:after {
-  color: black;
+  color: white;
   content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
 .collapsible:hover:after{
-	color: black;
+	color: white;
 }
 
 /* Hangman
