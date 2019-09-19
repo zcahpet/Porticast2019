@@ -9,8 +9,20 @@ body{
 	background-repeat: repeat;
 }
 
-header {
+header img {
 	background-color: #ff8700;
+
+}
+
+header {
+	background-color: #2C2C2C;
+	border-radius: 8px;
+
+}
+
+header ul {
+	background-color: #ff8700;
+	border-radius: 8px;
 }
 
 /* The naviagtion bar */ 
@@ -19,11 +31,13 @@ header nav {
 	height: 43.5px;
 	position: relative;
 	z-index: 2;
+
 }
 
 header nav ul {
 	float: left;
 	width: 100%;
+
 	
 }
 
@@ -32,11 +46,13 @@ header nav ul  li {
 	list-style: none;
 	position: relative;
 	width:calc(100%/4);
+
 }
 
 
 header nav ul  li ul li {
 	width:100%;
+
 }
 
 /*  Links in the navigation bar */
@@ -62,13 +78,13 @@ header nav ul li ul {
 
 header nav li:hover > ul  {
 	display: block;
-	border-radius: 0px 0px 8px 8px;
+	border-radius:8px;
 	box-shadow: 5px 5px 20px grey;
 }
 
 header nav li:hover > ul li:hover > ul{
 	display: block;
-	border-radius: 0px 8px 8px 8px;
+	border-radius: 8px;
 }
 
 header nav ul ul ul {
