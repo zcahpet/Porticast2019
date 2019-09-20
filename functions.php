@@ -62,6 +62,26 @@ function create_glossary($data){
 
 }
 
+function create_icon_index($data){
+	foreach ($data as $entry){
+		echo '<div class ="row">
+		<div class ="col1">
+			<p>'.$entry['function'].'</p>
+		</div>
+		<div class ="col1">
+			<img src="Images/Icons/'.$entry['function'].'.png" width="40px">
+		</div>
+		<div class ="col1">
+			<p>'.$entry['location'].'</p>
+		</div>
+		<div class ="col1">
+			<p>'.$entry['tutorial'].'</p>
+		</div>
+	</div>';
+	}
+
+}
+
 
 
 

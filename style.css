@@ -339,7 +339,7 @@ p{
 
 .glossary .row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0px;
   padding: 0px;
   margin: 0 auto;
@@ -348,14 +348,28 @@ p{
 }
 
 .glossary .col1 {
-  grid-column: span 2;
+  grid-column: span 1;
   border: solid black;
   border-width: 0px 1px;
 
 }
 
 .glossary .col2 {
-  grid-column: span 1;
+  grid-column: span 2;
+  border: solid black;
+  border-width: 0px 1px;
+
+}
+
+.glossary .col3 {
+  grid-column: span 3;
+  border: solid black;
+  border-width: 0px 1px;
+
+}
+
+.glossary .col4 {
+  grid-column: span 4;
   border: solid black;
   border-width: 0px 1px;
 
@@ -372,6 +386,10 @@ p{
   font-style: italic;
   padding: 2px 4px;
   line-height: 0.65cm;
+}
+
+.glossary img {
+  padding: 2px 4px;
 }
 
 
