@@ -40,12 +40,51 @@ function create_video_list($data){
 			</div>
 				<div class="col3">
 					<p>' .$video['description'].'</p> </div> </div> ';
-				
-
-		# code...
 	}
 
 }
+
+
+function create_glossary($data){
+	foreach ($data as $entry){
+		echo '<div class ="row">
+				<div class ="col2">
+					<p>'.$entry['term'].'</p>
+				</div>
+				<div class ="col2">
+					<p>'.$entry['description'].'</p>
+				</div>
+				</div>';
+
+
+
+	}
+
+}
+
+function create_icon_index($data){
+	foreach ($data as $entry){
+		echo '<div class ="row">
+		<div class ="col1">
+			<p>'.$entry['function'].'</p>
+		</div>
+		<div class ="col1">
+			<img src="Images/Icons/'.$entry['function'].'.png" width="40px">
+		</div>
+		<div class ="col1">
+			<p>'.$entry['location'].'</p>
+		</div>
+		<div class ="col1">
+			<p>'.$entry['tutorial'].'</p>
+		</div>
+	</div>';
+	}
+
+}
+
+
+
+
 
 
 
