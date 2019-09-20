@@ -45,6 +45,28 @@ function create_video_list($data){
 }
 
 
+function create_glossary($data){
+	foreach ($data as $entry){
+		echo '<div class ="row">
+				<div class ="col2">
+					<p>'.$entry['term'].'</p>
+				</div>
+				<div class ="col2">
+					<p>'.$entry['description'].'</p>
+				</div>
+				</div>';
+
+
+
+	}
+
+}
+
+
+
+
+
+
 
 
 

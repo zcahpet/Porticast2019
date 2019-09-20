@@ -329,6 +329,58 @@ p{
 }
 
 
+/* Glossary
+---------------------------------------------------------------------------- */
+
+.glossary {
+  border: 1px solid black;
+}
+
+
+.glossary .row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  border: solid black;
+  border-width: 1px 0px;
+}
+
+.glossary .col1 {
+  grid-column: span 2;
+  border: solid black;
+  border-width: 0px 1px;
+
+}
+
+.glossary .col2 {
+  grid-column: span 1;
+  border: solid black;
+  border-width: 0px 1px;
+
+}
+
+.glossary h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 2px 4px;
+  line-height: 0.65cm;
+}
+
+.glossary p {
+  font-style: italic;
+  padding: 2px 4px;
+  line-height: 0.65cm;
+}
+
+
+
+
+
+
+
+
 /* Footer
 ----------------------------------------------------------------------------- */
 
