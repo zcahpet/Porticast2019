@@ -95,7 +95,7 @@ $title= "Catia Getting Started";
 			</p>
 
 
-			<div class="container">
+			
 			<div class = "row">
 				<div class = "col4">
 					<p>The identity matrix </p>
@@ -150,7 +150,7 @@ $title= "Catia Getting Started";
 					</p>
 				</div>
 			</div>
-		</div>
+		
 		<br>
 		<hr>
 		<h2 >Indexing</h2>

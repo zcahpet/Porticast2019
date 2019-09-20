@@ -1,7 +1,3 @@
-
-
-
-
 <body>
 	<div id="background">
 	<article>
@@ -20,16 +16,8 @@ create_video_list($data);
 
 ?>
 
-
-
-
-		
-		
-	
-	
-
-	</article>
-	</div>
+</article>
+</div>
 </body>
 </html>
 

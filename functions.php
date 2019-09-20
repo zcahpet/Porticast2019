@@ -40,9 +40,6 @@ function create_video_list($data){
 			</div>
 				<div class="col3">
 					<p>' .$video['description'].'</p> </div> </div> ';
-				
-
-		# code...
 	}
 
 }
