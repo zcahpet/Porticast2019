@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col12" >
 				<p>
-					This website is designed for and used by undergraduate Mechanical Engineering students at UCL. It hosts videos and tutorials for softwares such as CATIA and MatLab as well as the induction videos for the workshop at Wicklow Street. The purpose of the website is to help new students get familiar with the machines, tools and softwares they will use during their time at UCL and beyond.
+					This website is designed for and used by undergraduate Mechanical Engineering students at UCL. It hosts videos and tutorials for softwares such as CATIA and MatLab as well as the induction videos for the workshop at Wicklow Street. The purpose of the website is to help new students get familiar with the machines, tools and softwares they will use during their time at UCL and beyond.<br></br>
 				</p>
 			</div>
 		</div>
