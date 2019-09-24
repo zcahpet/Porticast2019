@@ -38,13 +38,18 @@ $title= "Catia Tool Guides";
 				<li class='alphabet_inactive'><a href='#X'>X</a></li>
 				<li class='alphabet_inactive'><a href='#Y'>Y</a></li>
 				<li class='alphabet_inactive'><a href='#Z'>Z</a></li>
-			</ol>
+			</ol> TWAT
 			<div class='alphabet_index' id='A'>
 				<h1>A</h1>
 				<a href='Tools/Add'>Add</a><br>
 			</div>
 			<div class='alphabet_index' id='C'>
 				<h1>C</h1>
+				<?php
+				$c_tools =["Catalogue","Chamfer","Constraints","Circular Pattern","Close Surface"];
+				create_toolguide_list($c_tools);
+				//echo '<a href="'.SERVER_ADR."?page=".urlencode("Tools").'&tool=a'.urlencode("Catalogue.php").'">Catalogue Browser</a>';
+				?>
 				<a href='Tools/Catalogue.php'>Catalogue Browser</a> <br>
 				<a href='Tools/Chamfer'>Chamfer</a><br>
 				<a href='Tools/Constraints'>Constraints Defined in Dialogue Box</a><br>

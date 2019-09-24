@@ -26,8 +26,11 @@ require SERVER_ROOT.'header.php';
 
 // Depending on page name constant, set from URL, import a page
 switch($PageName){
-    case 'Homepage':
-        require SERVER_ROOT.'Nav/01Home.php';
+    case 'Tools':
+        if (array_key_exists("tool", $_GET)){
+            require SERVER_ROOT.'Tools/'.$_GET['tool'];
+        }
+        
         break;
 
     case 'Nav/01Catia/video':

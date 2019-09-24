@@ -1,8 +1,3 @@
-<?php
-require 'header.php';
-?>
-
-
 <body>
 	<div id="background">
 		<article>
@@ -66,7 +61,3 @@ require 'header.php';
 	</div>
 </body>
 </html>
-
-<?php
-require 'footer.php';
-?>
