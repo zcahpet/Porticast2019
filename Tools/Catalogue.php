@@ -1,5 +1,5 @@
 <?php
-$title= "Catia Getting Started";
+require 'header.php';
 ?>
 
 
@@ -66,3 +66,7 @@ $title= "Catia Getting Started";
 	</div>
 </body>
 </html>
+
+<?php
+require 'footer.php';
+?>
