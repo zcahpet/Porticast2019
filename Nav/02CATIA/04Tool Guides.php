@@ -38,7 +38,7 @@ $title= "Catia Tool Guides";
 				<li class='alphabet_inactive'><a href='#X'>X</a></li>
 				<li class='alphabet_inactive'><a href='#Y'>Y</a></li>
 				<li class='alphabet_inactive'><a href='#Z'>Z</a></li>
-			</ol> TWAT
+			</ol> 
 			<div class='alphabet_index' id='A'>
 				<h1>A</h1>
 				<?php
@@ -121,7 +121,7 @@ $title= "Catia Tool Guides";
 				<?php
 				$c_tools =["Scaling", "Shaft", "Shell", "Sketch Solving Status", "Split"];
 				create_toolguide_list($c_tools);
-				?>>
+				?>
 			</div>
 			<div class='alphabet_index' id='T'>
 				<h1>T</h1>
