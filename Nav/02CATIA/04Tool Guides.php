@@ -49,7 +49,7 @@ $title= "Catia Tool Guides";
 			<div class='alphabet_index' id='C'>
 				<h1>C</h1>
 				<?php
-				$c_tools =["Catalogue Browser","Chamfer","Constraints Defined in Dialogue Box","Circular Pattern","Close Surface"];
+				$c_tools =["Chamfer","Constraints Defined in Dialogue Box","Circular Pattern","Close Surface"];
 				create_toolguide_list($c_tools);
 				?>
 			</div>
