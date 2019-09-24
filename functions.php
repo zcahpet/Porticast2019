@@ -83,6 +83,13 @@ function create_icon_index($data){
 }
 
 
+function create_toolguide_list($tools){
+	foreach ($tools as $tool) {
+		echo '<a href="'.SERVER_ADR.'?page=Tools&tool='.urlencode($tool.".php").'">'.$tool.'</a><br>';
+	}
+}
+
+
 
 
 
