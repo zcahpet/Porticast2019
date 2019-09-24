@@ -5,8 +5,11 @@ function print_page_title() {
 
 	if (!isset($_GET["page"])) {
 		echo 'Home';
+	} elseif ($_GET["page"]=="Tools" && isset($_GET["tool"])) {
+		echo substr($_GET["tool"], 0,-4)." Tool";
 	} else{
 		$stem =  substr($_GET['page'],6,-4);
+		echo $stem ;
 		switch ($stem) {
 			case 'Home':
 				echo $stem ;
