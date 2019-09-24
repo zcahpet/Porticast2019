@@ -5,11 +5,12 @@
 
 <?php
 $data = [
-['video_title' =>'Cordless Drill','id'=>'IBm27NYH3II', 'description'=>'This induction video will teach you the basics of how to use the Cordless Drill.'],
-['video_title' =>'Glue Gun','id'=>'tEgacdcftoQ', 'description'=>'This induction video will teach you how to safely use the Glue Gun.'],
-['video_title' =>'Soldering Iron','id'=>'SXPRtzatBxQ', 'description'=>'This induction video will teach you how to safely use the Soldering Iron.'],
-['video_title' =>'Pillar Drill','id'=>'C0h4GqDRPRs', 'description'=>'This induction video will teach you how to safely use the Pillar Drill.'],
-['video_title' =>'Dremel','id'=>'G5B0wOy2JEk', 'description'=>'This induction video will teach you how to safely use the Dremel.'],
+['video_title' =>"PPE Do's and Don'ts",'id'=>'2QiNIust0cg', 'description'=>'Welcome to this induction video personal protective equipment'],
+['video_title' =>'Cordless Drill','id'=>'HYWfs7x_p04', 'description'=>'Welcome to this induction video on how to safely use the cordless drill'],
+['video_title' =>'Glue Gun','id'=>'qvpihF6CpuE', 'description'=>'Welcome to this induction video on how to safely use the glue gun'],
+['video_title' =>'Soldering Iron','id'=>'Ip-GeDaAfQk', 'description'=>'Welcome to this induction video on how to safely use the soldering iron'],
+['video_title' =>'Pillar Drill','id'=>'bPAyz0H8maw', 'description'=>'Welcome to this induction video on how to safely use the pillar drill'],
+['video_title' =>'Dremel','id'=>'', 'description'=>'Welcome to this induction video on how to safely use the dremel'],
 ];
 create_video_list($data);
 
