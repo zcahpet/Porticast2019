@@ -1,62 +1,128 @@
 <body>
 	<div id="background">
 		<article>
-			<h1>Getting Started</h1>
-			<h2>Using the Mouse</h2>
-			<h3>Panning</h3>
-				<ol type="1">
-	 				<li>Hold down the scroll wheel</li>
-	  				<li>Move the mouse</li>
-	 				<li>The part should move</li>
-				</ol>  
-			<h3>Zooming</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and release the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move the mouse up or down to zoom in or out</li>
-				</ol>
-			<h3>Rotating</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and hold the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move to rotate around</li>
-				</ol>
-		
-			<h2>The Tree</h2>
-				<p>The tree is one of the most important and helpful features in CATIA. It stores all the information about the part you have created. So it is useful for detecting what tools you have used to create the part, and where, if any, issues lie in the part. Hence, it is important to label key features in your tree, because when working with large assemblies, the tree can become very large, making it harder to navigate. A large tree of an impeller in a casing is shown below:</p>
-				<img src="Images\Catia\tree.png" width="280px">
-			<h3>Deactivate Feature</h3>
-				<p>In the tree you can deactivate features, this is used because you may want to try another feature on the part to see how it changes, or to ‘hide’ certain features to make it easier to see the whole part. To do this, right click on the feature on the tree, then find deactivate, it may be in a sub menu, accept the default options.</p>
-				<img src="Images\Catia\deactiv.png" width="280px">
-				<p>The feature will then have a sign appear on top of it in the tree, indicating it is deactivated.</p>
-				<img src="Images\Catia\blades.png" width="280px">
-				<p>The effect of deactivating the circular pattern is shown below.
+			<h1>Circular Pattern Tool</h1>
+			<p>
+				<b>
+				The Circular Pattern tool allows a features/geometry to be repeated in a circular pattern. 
+				</b>
+				In this function there is an Axial Reference and a Crown Definition where the user is able to alter the pattern.
 				<br>
-				From:</p>
-				<img src="Images\Catia\before.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after.png" width="280px">
-				<p>To activate the feature, the same procedure applies and you will see the feature reappear on the part.</p>
-				<img src="Images\Catia\activ.png" width="280px">
-			<h3>Define In Work Object</h3>
-				<p>If you have forgotten to add a feature that should have been created earlier in the build, you can use this tool to add the feature. This allows you to add new features to the tree, and allows you to make sure they don’t end up at the bottom of the tree since it may not be the best place for it. To use this tool, Right click on the feature in the tree you wish to be the “In Work Object”.</p>
-				<img src="Images\Catia\inwork.png" width="280px">
-				<p>The part build will return to this position.
+			</p>
+				<h3 style="text-decoration: underline;">Axial Reference</h3>
+			<p>
+				<b>
+				Parametre	
+				</b>
 				<br>
-				From:</p>
-				<img src="Images\Catia\before2.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after2.png" width="280px">
-				<p>Note the Defined In Work Object is underlined to show that it is the current feature in the build. Now you can create a new sketch or add new features to the part at this stage of the part build. The new features will appear in the tree at this stage of the build, not at the end. Finally, you can revert to the end of the part build to continue modelling. Either select the final feature in the CATIA tree and Define In Work Object, or do the same on the part body.</p>
-				<img src="Images\Catia\final.png" width="280px">
-		
-			<h2>Main Tools</h2>
-		
-			<h2>Lost Toolbars</h2>
-				<p>A common query among new CATIA users is how to restore lost toolbars. To do this you must first click on tools on the menu bar and select the “customise…” option.</p>
-				<img src="Images\Catia\custom.png" width="280px">
-				<p>Then switch to the “Toolbars” tab and click on “Restore all contents…” and “Restore position”. Close the dialog box and you’re all set!</p>
-				<img src="Images\Catia\restore.png" width="280px">
+				In this tab, the user will choose the 1 of 5 parametres to construct a circular pattern.
+				<br>
+				The 5 parametres are:
+				<br>
+				<ul>
+					<li>Instance(s) and Total Angle</li>
+					<li>Instance(s) and Angular Spacing</li>
+					<li>Angular Spacing and Total Angle</li>
+					<li>Complete Crown</li>
+					<li>Instance(s) and Unequal Angular Spacing</li>
+				</ul>
+				<br>
+				<b>
+				Instance(s) and Total Angle	
+				</b>
+				<br>
+				In this parameter mode, the program will compute the angular spacing between features after the user specified the number of instances and total angle values.
+				<br>
+				<br>
+				<b>
+				Instance(s) and Angular Spacing	
+				</b>
+				<br>
+				In this parameter mode, the program will compute the total angle after the user specified the number of instances and the angular spacing.
+				<br>
+				<br>
+				<b>
+				Angular Spacing and Total Angle	
+				</b>
+				<br>
+				In this parameter mode, the program will compute the number of instances the feature repeats after the user specified the angular spacing and total angle.
+				<br>
+				<br>
+				<b>
+				Complete Crown	
+				</b>
+				<br>
+				In this parameter mode, the program will ensure a complete crown (360°) is achieved by computing the angular spacing after the user specified the number of instances.
+				<br>
+				<br>
+				<b>
+				Instance(s) and Unequal Angular Spacing
+				</b>
+				<br>
+				In this parameter mode, the user can define the number of instances and also the angular spacing between each features.
+				<br>
+			</p>
+				<h3 style="text-decoration: underline;">Crown Definition</h3>
+			<p>
+				<b>
+				Parametre	
+				</b>
+				<br>
+				In this tab, the user will choose the 1 of 3 parametres to define the crown.
+				<br>
+				The 3 parametres are:
+				<br>
+				<ul>
+					<li>Circle(s) and Circle Spacing</li>
+					<li>Circle(s) and Crown Thickness</li>
+					<li>Circle Spacing and Crown Thickness</li>
+				</ul>
+				<br>
+				Before we begin explaining each of these parametres, the figure below will help you understand some of the terms used:
+				<br>
+				<img style="padding: 10px 0px" src="Tools/Tools_Images/Circular/circular_terms.png">
+				<br>
+				<br>
+				<b>
+				Circle(s) and Circle Spacing	
+				</b>
+				<br>
+				In this parameter mode, the program will compute the crown thickness after the user specified the circle spacing and number of circles.
+				<br>
+				<br>
+				<b>
+				Circle(s) and Crown Thickness
+				</b>
+				<br>
+				In this parameter mode, the program will compute the circle spacing after the user specified the crown thickness and number of circles.
+				<br>
+				<br>
+				<b>
+				Circle Spacing and Crown Thickness
+				</b>
+				<br>
+				In this parameter mode, the program will compute the circle spacing after the user specified the crown thickness and circles.
+				<br>
+				<br>
+			</p>
+				<h3 style="text-decoration: underline;">Instruction</h3>
+			<p>
+				To use this function, first select the feature/geometry that need to be replicated:
+				<br>
+				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_pad.png">
+				<br>
+				Next, click on the circular pattern icon. You might need to click on the black downward arrow beside rectangular pattern to find it:
+				<br>
+				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_icon.png">
+				<br>
+				Click on the Reference element textbox and then click on the plane parallel to the surface where the feature lies:
+				<br>
+				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_reference.png">
+				<br>
+				Choose the parameters and work on it. Similar to the rectangular pattern, you can disable the some of the duplicates by clicking on the dots in the preview:
+				<br>
+				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_parametres.png">
+			</p>
 	</article>
 	</div>
 </body>
