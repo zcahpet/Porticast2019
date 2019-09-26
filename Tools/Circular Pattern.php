@@ -109,19 +109,19 @@
 			<p>
 				To use this function, first select the feature/geometry that need to be replicated:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_pad.png">
+				<img class="tools_image" src="Tools/Tools_Images/Circular/circular_pad.png">
 				<br>
 				Next, click on the circular pattern icon. You might need to click on the black downward arrow beside rectangular pattern to find it:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_icon.png">
+				<img class="tools_image" src="Tools/Tools_Images/Circular/circular_icon.png">
 				<br>
 				Click on the Reference element textbox and then click on the plane parallel to the surface where the feature lies:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_reference.png">
+				<img class="tools_image" src="Tools/Tools_Images/Circular/circular_reference.png">
 				<br>
 				Choose the parameters and work on it. Similar to the rectangular pattern, you can disable the some of the duplicates by clicking on the dots in the preview:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Circular/circular_parametres.png">
+				<img class="tools_image" src="Tools/Tools_Images/Circular/circular_parametres.png">
 			</p>
 	</article>
 	</div>

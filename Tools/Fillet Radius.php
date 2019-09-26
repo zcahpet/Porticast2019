@@ -28,17 +28,17 @@
 				<br>
 				The Fillet Radius tool can be found in the ‘Dress-Up Features’ toolbar, as shown below:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Fillet/fillet_icon.gif">
+				<img class="tools_image" src="Tools/Tools_Images/Fillet/fillet_icon.gif">
 				<br>
 				Once clicked, select the edges to which you want to apply a fillet. To select multiple edges remember to use the control key simultaneously with the left click. From the dialogue box, choose a radius:
 				<br>
 				(Make sure the parameter is set to “tangency”. Other options can be used for more complex applications.)
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Fillet/fillet_box.png">
+				<img class="tools_image" src="Tools/Tools_Images/Fillet/fillet_box.png">
 				<br>
 				Click OK when done:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Fillet/fillet_result.png">
+				<img class="tools_image" src="Tools/Tools_Images/Fillet/fillet_result.png">
 			</p>
 	</article>
 	</div>

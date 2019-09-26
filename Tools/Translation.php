@@ -10,14 +10,14 @@
 				<h3>Direction, Distance</h3>
 				In this mode, users move the part by selecting a direction and distance.
 				<br>
-				<img style="padding: 10px 0px; max-width: 800px;" src="Tools/Tools_Images/Translation/translation1.png" ;>
+				<img class="tools_image" src="Tools/Tools_Images/Translation/translation1.png" ;>
 				<h3>Point, Point</h3>
 				In this mode, the user moves the Body by clicking on 2 points. The Start point will be the reference point on the body that will be translated to the endpoint, and thereafter every other point of the Body follows.
 				<br>
-				<img style="padding: 10px 0px; max-width: 800px;" src="Tools/Tools_Images/Translation/translation2.png">
+				<img class="tools_image" src="Tools/Tools_Images/Translation/translation2.png">
 				<h3>Co-ordinates</h3>
 				In this mode, the body will translate using vector coordinates from the selected axis system
-				<img style="padding: 10px 0px; max-width: 800px;" src="Tools/Tools_Images/Translation/translation3.png">
+				<img class="tools_image" src="Tools/Tools_Images/Translation/translation3.png">
 				<br>
 			</p>
 	</article>

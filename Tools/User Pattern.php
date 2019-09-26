@@ -9,19 +9,19 @@
 				<br></br>
 				To start with, the user will first have to design the pattern on sketch
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Pattern/Pattern.png">
+				<img class="tools_image" src="Tools/Tools_Images/Pattern/Pattern.png">
 				<br>
 				Next, click on the user design icon
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Pattern/Pattern1.png">
+				<img class="tools_image" src="Tools/Tools_Images/Pattern/Pattern1.png">
 				<br>
 				Finally select the sketch as the position and the features/geometry/body as the object
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Pattern/Pattern2.png">
+				<img class="tools_image" src="Tools/Tools_Images/Pattern/Pattern2.png">
 				<br>
 				The pattern should now be created.
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Pattern/Pattern2.png">
+				<img class="tools_image" src="Tools/Tools_Images/Pattern/Pattern2.png">
 				<br>
 			</p>
 	</article>
