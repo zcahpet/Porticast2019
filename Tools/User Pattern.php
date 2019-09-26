@@ -3,7 +3,9 @@
 		<article>
 			<h1>User Pattern Tool</h1>
 			<p>
-				The User Pattern tool has a very similar function to other pattern tools, the only difference being that it allows the user to replicate a feature/geometry/body according to their own pattern design. A good example of this is the fixing holes in the face of a complex component where the layout is not a simple rectangular or circular pattern.
+				<b>The User Pattern tool has a very similar function to other pattern tools, the only difference being that it allows the user to replicate a feature/geometry/body according to their own pattern design.</b>
+				<br>
+				A good example of this is the fixing holes in the face of a complex component where the layout is not a simple rectangular or circular pattern.
 				<br></br>
 				To start with, the user will first have to design the pattern on sketch
 				<br>
