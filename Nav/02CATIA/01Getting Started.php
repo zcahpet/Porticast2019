@@ -1,8 +1,3 @@
-<?php
-$title= "Catia Getting Started";
-?>
-
-
 <body>
 	<div id="background">
 		<article>
