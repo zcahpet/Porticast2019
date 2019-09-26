@@ -72,7 +72,7 @@ function create_icon_index($data){
 			<p>'.$entry['function'].'</p>
 		</div>
 		<div class ="col1">
-			<img src="Images/Icons/'.$entry['function'].'.png" width="40px">
+			<img src="Images/Icons/Catia/'.$entry['function'].'.png" width="40px">
 		</div>
 		<div class ="col1">
 			<p>'.$entry['location'].'</p>
@@ -80,9 +80,8 @@ function create_icon_index($data){
 		<div class ="col1">
 			<p>'.$entry['tutorial'].'</p>
 		</div>
-	</div>';
+		</div>';
 	}
-
 }
 
 
@@ -93,6 +92,22 @@ function create_toolguide_list($tools){
 }
 
 
+
+function create_STAR_icon($data){
+	foreach ($data as $entry) {
+		echo '<div class ="row">
+		<div class ="col1">
+			<p>'.$entry['function'].'</p>
+		</div>
+		<div class ="col1">
+			<img src="Images/Icons/STAR/'.$entry['function'].'.png" width="40px">
+		</div>
+		<div class ="col2">
+			<p>'.$entry['description'].'</p>
+		</div>
+		</div>';
+	}
+}
 
 
 
