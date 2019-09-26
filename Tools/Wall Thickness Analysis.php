@@ -12,7 +12,7 @@
 				<p>To change the way the analysis is viewed, go to Options->Display->Sphere/Ray</p>
 				<img class="tools_image" src="Tools\Tools_Images\Wall\Wall-3.png">
 				<p>Now when you hover over the object, spheres/rays will appear on screen, indicating the thickness along various parts of the body</p>
-				<img src="Tools\Tools_Images\Wall\Wall-4.png"
+				<img class="tools_image" src="Tools\Tools_Images\Wall\Wall-4.png"
 	</article>
 	</div>
 </body>
