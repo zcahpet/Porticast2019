@@ -9,15 +9,15 @@
 				<br>
 				Click on the Intersect tool.
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Intersect/Intersect_icon.png">
+				<img class="tools_image" src="Tools/Tools_Images/Intersect/Intersect_icon.png">
 				<br>
 				The pop up box will appear. Select the one body as the ‘Intersect’ part, and the other body as the ‘To’ part. (The order should not matter)
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Intersect/Intersect_parts.png">
+				<img class="tools_image" src="Tools/Tools_Images/Intersect/Intersect_parts.png">
 				<br>
 				Click OK. Only the region where the objects intersect should remain with all other 3D material removed. Leaving behind the shape as seen in the image below. You will also notice that the bodies have merged into 1 Part Body in the tree, and “Intersect” appears on a branch of the tree.
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Intersect/Intersect_product.png">
+				<img class="tools_image" src="Tools/Tools_Images/Intersect/Intersect_product.png">
 			</p>
 	</article>
 	</div>

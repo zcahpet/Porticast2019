@@ -11,19 +11,19 @@
 				<br>
 				To begin using the using this feature, create a surface that you desire:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Close/close_surface.png">
+				<img class="tools_image" src="Tools/Tools_Images/Close/close_surface.png">
 				<br>
 				Click on the Close Surface icon:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Close/close_icon.png">
+				<img class="tools_image" src="Tools/Tools_Images/Close/close_icon.png">
 				<br>
 				A Close Surface definition box will pop out. Select the Surface where you want to close:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Close/close_box.png">
+				<img class="tools_image" src="Tools/Tools_Images/Close/close_box.png">
 				<br>
 				Click OK when done:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Close/close_done.png">
+				<img class="tools_image" src="Tools/Tools_Images/Close/close_done.png">
 			</p>
 	</article>
 	</div>

@@ -10,11 +10,11 @@
 				<br>
 				Click on the Line icon:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Line/line_icon.gif">
+				<img class="tools_image" src="Tools/Tools_Images/Line/line_icon.gif">
 				<br>
 				After pressing the Line icon, this dialogue box will appear:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Line/line_box.png">
+				<img class="tools_image" src="Tools/Tools_Images/Line/line_box.png">
 				<br>
 				Here you can create a line using various options, which are:
 				<br>
@@ -29,7 +29,7 @@
 				<br>
 				Each method of creating a line needs specific geometrical features for it to work. On the bottom left of the screen there will be a text prompt telling you what the next step is. This is very useful in helping to select the next element, depending on the line type you are making:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Line/line_instruction.png">
+				<img class="tools_image" src="Tools/Tools_Images/Line/line_instruction.png">
 			</p>
 	</article>
 	</div>

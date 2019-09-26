@@ -11,21 +11,21 @@
 				<br>
 				To begin using the using this feature, create a body:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Dynamic/dynamic_body.png">
+				<img class="tools_image" src="Tools/Tools_Images/Dynamic/dynamic_body.png">
 				<br>
 				Click on the Dynamic Sectioning icon:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Dynamic/dynamic_sicon.gif">
+				<img class="tools_image" src="Tools/Tools_Images/Dynamic/dynamic_sicon.gif">
 				<br>
 				The plane of the section will appear as a red cross:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Dynamic/dynamic_section1.png">
+				<img class="tools_image" src="Tools/Tools_Images/Dynamic/dynamic_section1.png">
 				<br>
 				Clicking on different surfaces on the 3D model allows us to view the section from different angles.
 				<br>
 				Left clicking and holding on the red cross representation allows the plane of the section to be moved to different depths:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Dynamic/dynamic_section2.png">
+				<img class="tools_image" src="Tools/Tools_Images/Dynamic/dynamic_section2.png">
 			</p>
 	</article>
 	</div>
