@@ -21,8 +21,6 @@
 				<br>
 				The pattern should now be created.
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Pattern/Pattern2.png">
-				<br>
 			</p>
 	</article>
 	</div>

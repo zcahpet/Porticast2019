@@ -8,7 +8,7 @@
 				When you want to trim multiple elements using the trim tool remember to select the “Trim All Elements” toggle rather than the “Trim First Element” toggle.
 				<br>
 				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Trim/trim-tool.png">
-				<br>
+				<br></br>
 				The difference is shown below.
 				<br></br>
 				Original:
@@ -21,7 +21,7 @@
 				<br>
 				Trim first element:
 				<br>
-				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Trim/Trim-first-element.png" width="380px">
+				<img style="padding: 10px 0px;" src="Tools/Tools_Images/Trim/Trim-first-element.png">
 				<br>
 			</p>
 	</article>
