@@ -1,6 +1,38 @@
 <body>
 	<div id="background">
 		<article>
+			<h1>Mirror Tool</h1>
+			<p>
+			<b>
+				The Mirror tool is used to duplicate a feature/body along a plane of symmetry.
+			</b>
+				<br>
+				<br>
+				To perform this function, select the feature/body that needs to be duplicated:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Mirror/mirror_body.png">
+				<br>
+				Click on the Mirror icon:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Mirror/mirror_icon.gif">
+				<br>
+				Finally, select the Mirroring Element (plane of symmetry) that you wish to mirror it about and click OK:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Mirror/mirror_box.png">
+				<br>
+				It is also possible to mirror just a single feature or group of features of a PartBody rather than the whole thing. To do this, use the “Define In Work Object” option (explained here) to exclude the part that you do not want to mirror.
+				<br>
+				This has been done below by mirroring the PartBody whilst excluding the hole.
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Mirror/mirror_result.png">
+			</p>
+	</article>
+	</div>
+</body>
+</html>
+<body>
+	<div id="background">
+		<article>
 			<h1>Getting Started</h1>
 			<h2>Using the Mouse</h2>
 			<h3>Panning</h3>
