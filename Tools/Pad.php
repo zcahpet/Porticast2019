@@ -1,62 +1,42 @@
 <body>
 	<div id="background">
 		<article>
-			<h1>Getting Started</h1>
-			<h2>Using the Mouse</h2>
-			<h3>Panning</h3>
-				<ol type="1">
-	 				<li>Hold down the scroll wheel</li>
-	  				<li>Move the mouse</li>
-	 				<li>The part should move</li>
-				</ol>  
-			<h3>Zooming</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and release the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move the mouse up or down to zoom in or out</li>
-				</ol>
-			<h3>Rotating</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and hold the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move to rotate around</li>
-				</ol>
-		
-			<h2>The Tree</h2>
-				<p>The tree is one of the most important and helpful features in CATIA. It stores all the information about the part you have created. So it is useful for detecting what tools you have used to create the part, and where, if any, issues lie in the part. Hence, it is important to label key features in your tree, because when working with large assemblies, the tree can become very large, making it harder to navigate. A large tree of an impeller in a casing is shown below:</p>
-				<img src="Images\Catia\tree.png" width="280px">
-			<h3>Deactivate Feature</h3>
-				<p>In the tree you can deactivate features, this is used because you may want to try another feature on the part to see how it changes, or to ‘hide’ certain features to make it easier to see the whole part. To do this, right click on the feature on the tree, then find deactivate, it may be in a sub menu, accept the default options.</p>
-				<img src="Images\Catia\deactiv.png" width="280px">
-				<p>The feature will then have a sign appear on top of it in the tree, indicating it is deactivated.</p>
-				<img src="Images\Catia\blades.png" width="280px">
-				<p>The effect of deactivating the circular pattern is shown below.
+			<h1>Pad Tool</h1>
+			<p>
+			<b>
+				The pad tool is used on a 2D sketch in order to extrude it into a 3D object.
+			</b>
 				<br>
-				From:</p>
-				<img src="Images\Catia\before.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after.png" width="280px">
-				<p>To activate the feature, the same procedure applies and you will see the feature reappear on the part.</p>
-				<img src="Images\Catia\activ.png" width="280px">
-			<h3>Define In Work Object</h3>
-				<p>If you have forgotten to add a feature that should have been created earlier in the build, you can use this tool to add the feature. This allows you to add new features to the tree, and allows you to make sure they don’t end up at the bottom of the tree since it may not be the best place for it. To use this tool, Right click on the feature in the tree you wish to be the “In Work Object”.</p>
-				<img src="Images\Catia\inwork.png" width="280px">
-				<p>The part build will return to this position.
 				<br>
-				From:</p>
-				<img src="Images\Catia\before2.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after2.png" width="280px">
-				<p>Note the Defined In Work Object is underlined to show that it is the current feature in the build. Now you can create a new sketch or add new features to the part at this stage of the part build. The new features will appear in the tree at this stage of the build, not at the end. Finally, you can revert to the end of the part build to continue modelling. Either select the final feature in the CATIA tree and Define In Work Object, or do the same on the part body.</p>
-				<img src="Images\Catia\final.png" width="280px">
-		
-			<h2>Main Tools</h2>
-		
-			<h2>Lost Toolbars</h2>
-				<p>A common query among new CATIA users is how to restore lost toolbars. To do this you must first click on tools on the menu bar and select the “customise…” option.</p>
-				<img src="Images\Catia\custom.png" width="280px">
-				<p>Then switch to the “Toolbars” tab and click on “Restore all contents…” and “Restore position”. Close the dialog box and you’re all set!</p>
-				<img src="Images\Catia\restore.png" width="280px">
+				Firstly, you will need to create a sketch:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Pad/pad_sketch.png">
+				<br>
+				Click on the Pad icon:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Pad/pad_icon.gif">
+				<br>
+				There are 3 types of pad you can use:
+				<br>
+				<h3>Pad</h3>
+				<br>
+				Select the profile to pad. The following dialogue box should appear:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Pad/pad_box.png">
+				<br>
+				You can use the standard length input to dimension the pad, or limits such as up to next/last/plane/surface. By using the thickness option, the pad will become more like a shell. The mirror option replicates  replicates the pad in the opposite direction. The Reverse direction option reverses the direction of the pad. Try experimenting with all the options available to understand what they can do.:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Pad/pad_done.png">
+				<br>
+				<br>
+				<h3>Drafted Filleted Pad</h3>
+				<br>
+				Select the profile to pad, then enter a length for the depth of the pad. For the second limit a plane parallel to the sketch has to be selected, so it can find another plane to finish off the pad. Then the draft angle can be selected. The neutral element is the plane that will be unchanged by the draft. Then fillets can be selected to round off the edges of the pad. Reverse direction changes the direction in which the pad is created.
+				<br>
+				<h3>Multi-Pad</h3>
+				<br>
+				Multipad is a tool used to pad multiple faces at once. The faces will be created on one sketch where they do not intersect with one another. When using this tool, enter a thickness value for each domain and click ok. To change the direction in which the pad is created use the reverse direction button; this is under the “more” tab.
+			</p>
 	</article>
 	</div>
 </body>

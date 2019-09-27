@@ -1,62 +1,37 @@
 <body>
 	<div id="background">
 		<article>
-			<h1>Getting Started</h1>
-			<h2>Using the Mouse</h2>
-			<h3>Panning</h3>
-				<ol type="1">
-	 				<li>Hold down the scroll wheel</li>
-	  				<li>Move the mouse</li>
-	 				<li>The part should move</li>
-				</ol>  
-			<h3>Zooming</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and release the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move the mouse up or down to zoom in or out</li>
-				</ol>
-			<h3>Rotating</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and hold the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move to rotate around</li>
-				</ol>
-		
-			<h2>The Tree</h2>
-				<p>The tree is one of the most important and helpful features in CATIA. It stores all the information about the part you have created. So it is useful for detecting what tools you have used to create the part, and where, if any, issues lie in the part. Hence, it is important to label key features in your tree, because when working with large assemblies, the tree can become very large, making it harder to navigate. A large tree of an impeller in a casing is shown below:</p>
-				<img src="Images\Catia\tree.png" width="280px">
-			<h3>Deactivate Feature</h3>
-				<p>In the tree you can deactivate features, this is used because you may want to try another feature on the part to see how it changes, or to ‘hide’ certain features to make it easier to see the whole part. To do this, right click on the feature on the tree, then find deactivate, it may be in a sub menu, accept the default options.</p>
-				<img src="Images\Catia\deactiv.png" width="280px">
-				<p>The feature will then have a sign appear on top of it in the tree, indicating it is deactivated.</p>
-				<img src="Images\Catia\blades.png" width="280px">
-				<p>The effect of deactivating the circular pattern is shown below.
+			<h1>Pocket Tool</h1>
+			<p>
+			<b>
+				The Pocket tool is a feature that creates holes.
+			</b>
+			<br>
+				Unlike the Hole tool, pockets can create non-round features.
 				<br>
-				From:</p>
-				<img src="Images\Catia\before.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after.png" width="280px">
-				<p>To activate the feature, the same procedure applies and you will see the feature reappear on the part.</p>
-				<img src="Images\Catia\activ.png" width="280px">
-			<h3>Define In Work Object</h3>
-				<p>If you have forgotten to add a feature that should have been created earlier in the build, you can use this tool to add the feature. This allows you to add new features to the tree, and allows you to make sure they don’t end up at the bottom of the tree since it may not be the best place for it. To use this tool, Right click on the feature in the tree you wish to be the “In Work Object”.</p>
-				<img src="Images\Catia\inwork.png" width="280px">
-				<p>The part build will return to this position.
 				<br>
-				From:</p>
-				<img src="Images\Catia\before2.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after2.png" width="280px">
-				<p>Note the Defined In Work Object is underlined to show that it is the current feature in the build. Now you can create a new sketch or add new features to the part at this stage of the part build. The new features will appear in the tree at this stage of the build, not at the end. Finally, you can revert to the end of the part build to continue modelling. Either select the final feature in the CATIA tree and Define In Work Object, or do the same on the part body.</p>
-				<img src="Images\Catia\final.png" width="280px">
-		
-			<h2>Main Tools</h2>
-		
-			<h2>Lost Toolbars</h2>
-				<p>A common query among new CATIA users is how to restore lost toolbars. To do this you must first click on tools on the menu bar and select the “customise…” option.</p>
-				<img src="Images\Catia\custom.png" width="280px">
-				<p>Then switch to the “Toolbars” tab and click on “Restore all contents…” and “Restore position”. Close the dialog box and you’re all set!</p>
-				<img src="Images\Catia\restore.png" width="280px">
+				There are 3 types of pockets:
+				<h3>Pocket</h3>
+				<img class="tools_image" src="Tools/Tools_Images/Pocket/pocket_icon.gif">
+				<br>
+				A pocket removes material from an existing solid. To start off with the profile/sketch of the pocket has to be created, usually on the pad’s surface. Then the depth can be entered by using dimensions or existing geometry in the part. A second limit can also be used to control the pocket dimensions if required. The “Thick” option reduces the size of the pocket by the width of the ‘wall’. Mirrored extent replicates the pocket in the opposite direction. Reverse direction reverses the direction of the pocket.
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Pocket/pocket_definition.png">
+				<br>
+				Click OK when done:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Pocket/pocket_result.png">
+				<br>
+				<h3> Drafted Filleted Pocket</h3>
+				<img class="tools_image" src="Tools/Tools_Images/Pocket/pocket_draftedicon.gif">
+				<br>
+				Select the profile to pocket, then enter a length for the depth of the pocket. For the second limit a plane parallel to the sketch has to be selected, so it can find another plane to finish off the pocket. Then the draft angle can be selected. The neutral element is the plane that will be unchanged by the draft. Then fillets can be selected to round off the edges of the pocket. Reverse direction changes the direction in which the pocket is created.
+				<br>
+				<h3> Multi-Pocket</h3>
+				<img class="tools_image" src="Tools/Tools_Images/Pocket/pocket_multiicon.gif">
+				<br>
+				Multipocket is a tool used to pocket multiple faces at once. The faces will be created on one sketch where they do not intersect with one another. When the tool is selected, for each domain enter a thickness value, and when this is done ok can be selected. To change the direction in which the pocket is created use the reverse direction button, which can be found after pressing more.
+			</p>
 	</article>
 	</div>
 </body>
