@@ -1,62 +1,106 @@
 <body>
 	<div id="background">
 		<article>
-			<h1>Getting Started</h1>
-			<h2>Using the Mouse</h2>
-			<h3>Panning</h3>
-				<ol type="1">
-	 				<li>Hold down the scroll wheel</li>
-	  				<li>Move the mouse</li>
-	 				<li>The part should move</li>
-				</ol>  
-			<h3>Zooming</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and release the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move the mouse up or down to zoom in or out</li>
-				</ol>
-			<h3>Rotating</h3>
-				<ol type="1">
-	 				<li>Hold down the scrool wheel</li>
-	  				<li>Click and hold the left or right button on the mouse while holding the wheel down</li>
-	 				<li>Move to rotate around</li>
-				</ol>
-		
-			<h2>The Tree</h2>
-				<p>The tree is one of the most important and helpful features in CATIA. It stores all the information about the part you have created. So it is useful for detecting what tools you have used to create the part, and where, if any, issues lie in the part. Hence, it is important to label key features in your tree, because when working with large assemblies, the tree can become very large, making it harder to navigate. A large tree of an impeller in a casing is shown below:</p>
-				<img src="Images\Catia\tree.png" width="280px">
-			<h3>Deactivate Feature</h3>
-				<p>In the tree you can deactivate features, this is used because you may want to try another feature on the part to see how it changes, or to ‘hide’ certain features to make it easier to see the whole part. To do this, right click on the feature on the tree, then find deactivate, it may be in a sub menu, accept the default options.</p>
-				<img src="Images\Catia\deactiv.png" width="280px">
-				<p>The feature will then have a sign appear on top of it in the tree, indicating it is deactivated.</p>
-				<img src="Images\Catia\blades.png" width="280px">
-				<p>The effect of deactivating the circular pattern is shown below.
+			<h1>Plane Tool</h1>
+			<p>
+				A Plane is a flat surface on which you can sketch. They are used to create more complex shapes and can be defined in a number of ways:
 				<br>
-				From:</p>
-				<img src="Images\Catia\before.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after.png" width="280px">
-				<p>To activate the feature, the same procedure applies and you will see the feature reappear on the part.</p>
-				<img src="Images\Catia\activ.png" width="280px">
-			<h3>Define In Work Object</h3>
-				<p>If you have forgotten to add a feature that should have been created earlier in the build, you can use this tool to add the feature. This allows you to add new features to the tree, and allows you to make sure they don’t end up at the bottom of the tree since it may not be the best place for it. To use this tool, Right click on the feature in the tree you wish to be the “In Work Object”.</p>
-				<img src="Images\Catia\inwork.png" width="280px">
-				<p>The part build will return to this position.
 				<br>
-				From:</p>
-				<img src="Images\Catia\before2.png" width="280px">
-				<p>To:</p>
-				<img src="Images\Catia\after2.png" width="280px">
-				<p>Note the Defined In Work Object is underlined to show that it is the current feature in the build. Now you can create a new sketch or add new features to the part at this stage of the part build. The new features will appear in the tree at this stage of the build, not at the end. Finally, you can revert to the end of the part build to continue modelling. Either select the final feature in the CATIA tree and Define In Work Object, or do the same on the part body.</p>
-				<img src="Images\Catia\final.png" width="280px">
-		
-			<h2>Main Tools</h2>
-		
-			<h2>Lost Toolbars</h2>
-				<p>A common query among new CATIA users is how to restore lost toolbars. To do this you must first click on tools on the menu bar and select the “customise…” option.</p>
-				<img src="Images\Catia\custom.png" width="280px">
-				<p>Then switch to the “Toolbars” tab and click on “Restore all contents…” and “Restore position”. Close the dialog box and you’re all set!</p>
-				<img src="Images\Catia\restore.png" width="280px">
+				<ul>
+					<li>Offset from Plane</li>
+					<li>Parallel through Point</li>
+					<li>Angle / Normal to Plane</li>
+					<li>Through 3 Points</li>
+					<li>Through 2 Lines</li>
+					<li>Through a Point and a Line</li>
+					<li>Through Planar Curve</li>
+					<li>Normal to Curve</li>
+					<li>Tangent to Curve</li>
+					<li>Equation</li>
+					<li>Mean through Point</li>
+				</ul>
+				<br>
+				Click on the Plane icon:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_icon.gif">
+				<br>
+				The following dialogue box should open:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_box.png">
+				<br>
+				CATIA's predictions of which plane to use can be frustrating. To deactivate it, click the green padlock.
+				<br>
+				<br>
+				<h3>Offset From Plane</h3>
+				Creates a plane which is offset from the reference plane:
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_offset.png">
+				<br>
+				Ticking the Repeat object option after OK allow the user to create more offset planes, with each plane separated from the initial plane by a multiple of the offset value:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_offsetbox.png">
+				<br>
+				<br>
+				<h3>Parallel Through Point</h3>
+				Creates a plane on a reference plane and point:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_parallel.png">
+				<br>
+				<br>
+				<h3>Angle / Normal to Plane</h3>
+				Creates a plane at given angle with respect to the reference plane: 
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_angle.png">
+				<br>
+				<br>
+				<h3>Through 3 Points</h3>
+				Creates a plane which passes through 3 points: 
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_3points.png">
+				<br>
+				<br>
+				<h3>Through 2 Lines</h3>
+				Creates a plane which passes through 2 Lines. If the lines are not co-planar, it will be buit on the second line. This can be avoided by ticking "Forbid non coplanar lines" :
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_2lines.png">
+				<br>
+				<br>
+				<h3>Through a Point and a Line</h3>
+				Creates a plane which passes through a point and a line:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_pointline.png">
+				<br>
+				<br>
+				<h3>Through Planar Curve</h3>
+				Creates on the same plane as a selected curve:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_curve.png">
+				<br>
+				<br>
+				<h3>Normal to Curve</h3>
+				Creates a plane normal to the selected curve. By default the plane is created at the mid-point. To select a different part, create a point on the curve and select it as the reference:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_normal.png">
+				<br>
+				<br>
+				<h3>Tangent to Curve</h3>
+				Creates a plane tangent to the selected curve. By default the plane is created at the mid-point. To select a different part, create a point on the curve and select it as the reference:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_normal.png">
+				<br>
+				<br>
+				<h3>Equation</h3>
+				Creates a plane by inputting an equation. It should be in the standard form Ax+By+Cz=D. The user can also select a point to replace D as the distance away from the origin:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_equation.png">
+				<br>
+				<br>
+				<h3>Mean through Points</h3>
+				Creates a plane through the mean of at least 3 selected points. The user can edit the plane by removing or replacing one or multiple points:
+				<br>
+				<img class="tools_image" src="Tools/Tools_Images/Plane/plane_mean.png">
+
+
+			</p>
 	</article>
 	</div>
 </body>
