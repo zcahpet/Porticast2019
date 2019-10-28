@@ -32,6 +32,7 @@ header nav {
 	position: relative;
 	z-index: 2;
 
+
 }
 
 header nav ul {
@@ -186,6 +187,10 @@ article{
   padding: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0px 0px 10px 10px;
+}
+
+article img {
+  padding: 10px 0px ;
 }
 
 article li {
@@ -440,6 +445,33 @@ footer nav ul li a{
   color: #fff;
 }
 
+
+.back {
+  position: -webkit-sticky;
+  position: sticky;
+  text-decoration: none;
+  top: 15;
+  left:  90%;
+  float: left;
+  padding: 10.5px 15px;
+  color: black;
+  background: #ff8700;
+  border-radius: 8px;
+  border: 1.5px solid black;
+  font-size: 15px;
+  box-shadow: 5px 5px 20px grey;
+  margin: 10px 0px;
+}
+
+.back a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.back:hover {
+  background-color: #8b4a00;
+}
 
 
 
