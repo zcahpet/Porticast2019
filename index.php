@@ -28,10 +28,16 @@ require SERVER_ROOT.'header.php';
 switch($PageName){
     case 'Tools':
         if (array_key_exists("tool", $_GET)){
+            /*require SERVER_ROOT.'Tools/back.php';*/
             require SERVER_ROOT.'Tools/'.$_GET['tool'];
+        } else{
+            require SERVER_ROOT.'Nav/02Catia/04Tool Guides.php';
         }
         
         break;
+
+    case 'Homepage':
+        require SERVER_ROOT. 'Nav/01Home.php';
 
     case 'Nav/01Catia/video':
     case 'Nav/02Matlab/video':
