@@ -4,7 +4,7 @@ $title= "Wicklow General Information";
 
 
 <body>
-	<iframe src="hangman.php" width="relative" height="relative" id="hangman"></iframe>
+	<!--<iframe src="hangman.php" width="relative" height="relative" id="hangman"></iframe>-->
 	<div id="background">
 	
 		<article>
@@ -78,7 +78,7 @@ $title= "Wicklow General Information";
 		
 		<h3 >Fire Exits & Meeting Point</h3>
 		
-			<img src="Images\Wicklow\route.png" id="map">
+			<img src="Images\Wicklow\FireEscape.jpg" id="map">
 		
 		<p >
 			The fire exits are located as shown in the picture above. If the fire alarm rings, stop whatever you are doing and make your way to the closest exist. Once out of the building, proceed to the meeting point in order to be registered as safe. <br><br> If you discover a fire, ring the closest fire alarm and proceed as usual to evacuate the building. Do not attempt to put the fire out using a fire extinguisher. Do not use the lifts. Do not re-enter the building unless you have been permitted to do so by a member of staff.

@@ -36,6 +36,9 @@ switch($PageName){
         
         break;
 
+    case 'Homepage':
+        require SERVER_ROOT. 'Nav/01Home.php';
+
     case 'Nav/01Catia/video':
     case 'Nav/02Matlab/video':
     	if (array_key_exists('vidid', $_GET) && is_numeric($_GET['vidid'])){
